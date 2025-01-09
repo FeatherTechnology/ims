@@ -8865,7 +8865,9 @@ label {
 }
 
 .table-container {
-  padding: .6rem;
+  overflow-x: auto; 
+  overflow-y: auto; 
+ margin: 20px auto; 
   background: #f6f8fa;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;

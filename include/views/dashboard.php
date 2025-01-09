@@ -31,9 +31,7 @@
 
     #purchase_details {
         width: 100%;
-        /* Full width for responsive chart */
-        height: 335px;
-        /* Default height */
+        height: 359px;
     }
 
     /* Responsive design for smaller screen sizes */
@@ -72,14 +70,6 @@
         }
     }
 
-    /* Table styles */
-    .table-container {
-        overflow-x: auto;
-        /* Enables horizontal scrolling for smaller screens */
-        margin: 20px auto;
-        width: 100%;
-        /* Center the table and limit its width */
-    }
 
     table {
         border-collapse: collapse;
@@ -169,74 +159,77 @@
     }
 
     .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 0;
-    padding: 20px;
-    
-    
-}
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
 
-/* Metric card styling */
-.metric {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    flex: 1;
-    margin: 0 10px; /* Add spacing between metrics */
-}
 
-.metric .number {
-    font-size: 50px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-}
+    }
 
-.metric .label,
-.metric .labels {
-    font-size: 18px;
-    color: #666;
-}
-
-.metric img {
-    width: 80px;
-    height: 80px;
-    margin-top: 10px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-wrap: wrap; /* Allow metrics to stack on smaller screens */
+    /* Metric card styling */
+    .metric {
         text-align: center;
-    }
-
-    .metric {
-        flex: 0 0 45%; /* Two metrics per row on smaller screens */
-        margin: 10px 0;
-    }
-
-    .metric img {
-        width: 60px;
-        height: 60px;
-    }
-}
-
-@media (max-width: 480px) {
-    .metric {
-        flex: 0 0 100%; /* Full width per metric on very small screens */
+        font-family: Arial, sans-serif;
+        flex: 1;
+        margin: 0 10px;
+        /* Add spacing between metrics */
     }
 
     .metric .number {
-        font-size: 35px;
+        font-size: 50px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .metric .label,
+    .metric .labels {
+        font-size: 18px;
+        color: #666;
     }
 
     .metric img {
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
     }
-}
+
+    /* Responsive adjustments */
+    @media (max-width: 992px) {
+        .footer-container {
+            flex-wrap: wrap;
+            /* Allow metrics to stack on smaller screens */
+            text-align: center;
+        }
+
+        .metric {
+            flex: 0 0 45%;
+            /* Two metrics per row on smaller screens */
+            margin: 10px 0;
+        }
+
+        .metric img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .metric {
+            flex: 0 0 100%;
+            /* Full width per metric on very small screens */
+        }
+
+        .metric .number {
+            font-size: 35px;
+        }
+
+        .metric img {
+            width: 50px;
+            height: 50px;
+        }
+    }
 
     /* Adjustments for screens smaller than 768px */
     @media (max-width: 768px) {
@@ -322,7 +315,7 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <h4>Sales Report</h4>
+                    <h4>Stock > 20 Days</h4>
                     <div id="salesReport"></div>
                 </div>
             </div>
@@ -331,7 +324,7 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <h4>Product Details</h4>
+                    <h4>Stock > 30 Days</h4>
                     <div id="productDetails"></div>
                 </div>
             </div>
@@ -342,15 +335,7 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <div id="barchart_values"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h4>Against Order Table</h4>
+                    <h4>Stock In Hand </h4>
                     <div class="table-container" id="purchase_details">
                         <table>
                             <thead>
@@ -404,7 +389,87 @@
                                     <td>$50</td>
                                     <td>$60</td>
                                 </tr>
-                                
+                                <tr>
+                                    <td>Vendor 6</td>
+                                    <td>Category F</td>
+                                    <td>Product 6</td>
+                                    <td>70</td>
+                                    <td>$60</td>
+                                    <td>$70</td>
+                                </tr>
+                              
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Against Order </h4>
+                    <div class="table-container" id="purchase_details">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Vendor</th>
+                                    <th>Category</th>
+                                    <th>Product</th>
+                                    <th>Quantity</th>
+                                    <th>Purchase Rate</th>
+                                    <th>Sales Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Vendor 1</td>
+                                    <td>Category A</td>
+                                    <td>Product 1</td>
+                                    <td>50</td>
+                                    <td>$40</td>
+                                    <td>$50</td>
+                                </tr>
+                                <tr>
+                                    <td>Vendor 2</td>
+                                    <td>Category B</td>
+                                    <td>Product 2</td>
+                                    <td>70</td>
+                                    <td>$35</td>
+                                    <td>$45</td>
+                                </tr>
+                                <tr>
+                                    <td>Vendor 3</td>
+                                    <td>Category C</td>
+                                    <td>Product 3</td>
+                                    <td>30</td>
+                                    <td>$25</td>
+                                    <td>$30</td>
+                                </tr>
+                                <tr>
+                                    <td>Vendor 4</td>
+                                    <td>Category D</td>
+                                    <td>Product 4</td>
+                                    <td>90</td>
+                                    <td>$20</td>
+                                    <td>$25</td>
+                                </tr>
+                                <tr>
+                                    <td>Vendor 5</td>
+                                    <td>Category E</td>
+                                    <td>Product 5</td>
+                                    <td>60</td>
+                                    <td>$50</td>
+                                    <td>$60</td>
+                                </tr>
+                                <tr>
+                                    <td>Vendor 6</td>
+                                    <td>Category F</td>
+                                    <td>Product 6</td>
+                                    <td>70</td>
+                                    <td>$60</td>
+                                    <td>$70</td>
+                                </tr>
+                              
                             </tbody>
                         </table>
                     </div>
@@ -414,33 +479,24 @@
     </div>
 
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-lg-12  col-md-6">
             <div class="card ">
                 <div class="card-body">
-                <div class="footer-container">
-    <div class="metric">
-        <div class="number">66</div>
-        <div class="label">Total Vendors</div>
-        <img src="img/group users.avif" alt="Vendors Icon">
-    </div>
-    <div class="metric">
-        <div class="number">47</div>
-        <div class="label">Total Categories</div>
-        <img src="img/category.avif" alt="Categories Icon">
-    </div>
-    <div class="metric">
-        <div class="number">225</div>
-        <div class="labels">Total Products</div>
-        <img src="img/products.avif" alt="Products Icon">
-    </div>
-    <div class="metric">
-        <div class="number">232</div>
-        <div class="labels">Total Sales</div>
-        <img src="img/sale.avif" alt="Sales Icon">
-    </div>
-</div>
+                    <div class="footer-container">
+                    
+                        <div class="metric">
+                            <div class="number">47</div>
+                            <div class="label">Today Production WIP Line Item</div>
+                            <img src="img/category.avif" alt="Categories Icon">
+                        </div>
+                        <div class="metric">
+                            <div class="number">225</div>
+                            <div class="labels">Sale Deliverable Line Item </div>
+                            <img src="img/products.avif" alt="Products Icon">
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
