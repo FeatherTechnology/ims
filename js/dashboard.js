@@ -94,25 +94,3 @@ function drawChart() {
 window.onresize = function () {
     drawChart(); // Redraw chart on window resize for responsiveness
 };
-const birthYear = 1990;
-const currentYear = new Date().getFullYear();
-const age = currentYear - birthYear;
-
-console.log("Your age is: " + age);
-function calculateAge(birthDateString) {
-    const today = new Date();
-    const birthDate = new Date(birthDateString);
-
-    let age = today.getFullYear() - birthDate.getFullYear();
-    const monthDifference = today.getMonth() - birthDate.getMonth();
-
-    // Check if the birthday has not yet occurred this year
-    if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
-    }
-
-    return age;
-}
-
-const dob = "1990-01-06"; // Replace with any date of birth
-console.log("Your age is: " + calculateAge(dob));

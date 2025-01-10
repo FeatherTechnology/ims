@@ -2,23 +2,17 @@ $(document).ready(function () {
     // Define the mapping of current_page values to current_module values
     const moduleMapping = {
         'dashboard':'dashboard',
-        'company_creation': 'master',
-        'branch_creation': 'master',
-        'customer_creation': 'master',
-        'group_creation': 'master',
-        'bank_creation': 'admin',
-        'user_creation': 'admin',
-        'auction': 'auction',
-        'settlement':'settlement',
-        'collection':'collection',
-        'accounts':'accounts',
-        'balance_sheet':'accounts',
-        'customer_data':'customer_data',
-        'group_summary':'group_summary',
-        'enquiry_creation':'enquiry',
-        'expenses_report':'reports',
-        'other_transaction_report':'reports',
-        'bulk_upload':'bulk_upload'
+        'company_creation':'administration',
+        'user_creation':'administration',
+        'product_category':'master',
+        'product_creation':'master',
+        'staff_creation':'master',
+        'storage_location':'master',
+        'production_indent':'production',
+        'fg_lot_wise':'production',
+        'stock_inward':'inventory',
+        'stock_issue':'inventory',
+        
     };
 
     const current_page = localStorage.getItem('currentPage');
