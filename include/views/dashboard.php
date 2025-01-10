@@ -487,12 +487,12 @@
                         <div class="metric">
                             <div class="number">47</div>
                             <div class="label">Today Production WIP Line Item</div>
-                            <img src="img/category.avif" alt="Categories Icon">
+                            <img src="./img/total_production.jpg" alt="Categories Icon">
                         </div>
                         <div class="metric">
                             <div class="number">225</div>
                             <div class="labels">Sale Deliverable Line Item </div>
-                            <img src="img/products.avif" alt="Products Icon">
+                            <img src="img/product.jpg" alt="Products Icon">
                         </div>
                         
                     </div>
