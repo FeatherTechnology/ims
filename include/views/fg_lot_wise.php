@@ -55,13 +55,13 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="indent_id">Indent ID</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="indent_id" id="indent_id" placeholder="Enter Indent ID" tabindex="3">
+                            <input type="text" class="form-control" name="indent_id" id="indent_id" placeholder="Indent ID" tabindex="3" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="indent_date">Indent Date</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="indent_date" id="indent_date" placeholder="Enter Indent Date" tabindex="4">
+                            <input type="text" class="form-control" name="indent_date" id="indent_date" placeholder="Indent Date" tabindex="4" readonly>
                         </div>
                     </div>
                    
@@ -192,7 +192,7 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="seller_name">Seller Name</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="seller_name" id="seller_name" placeholder="Enter Seller Name" tabindex="21">
+                            <input type="text" class="form-control" name="seller_name" id="seller_name" placeholder="Seller Name" tabindex="21" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">

@@ -76,7 +76,7 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="bin">Bin</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="bin" id="bin" placeholder="Enter Bin" tabindex="8" disabled>
+                            <input type="text" class="form-control" name="bin" id="bin" placeholder="Bin" tabindex="8" readonly>
                         </div>
                     </div>
                 </div>
