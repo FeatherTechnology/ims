@@ -27,7 +27,7 @@
         </div>
     </div>
 </div>
-<div class="stock_inward_creation_content" style="display: none;">
+<div class="stock_inward_creation_content" id="" style="display: none;">
     <div class="card">
         <div class="col-12">
             <div class="card-header">
@@ -35,7 +35,7 @@
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="lot_no">Lot No</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="lot_no" id="lot_no" placeholder="Enter Lot No" tabindex="1">
@@ -43,43 +43,43 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="type">Type</label><span class="text-danger">*</span>
                             <input type="text" class="form-control" name="type" id="type" placeholder="Type" tabindex="2" readonly>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="indent_id">Indent ID</label><span class="text-danger">*</span>
                             <input type="text" class="form-control" name="indent_id" id="indent_id" placeholder="Indent ID" tabindex="3" readonly>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="indent_date">Indent Date</label><span class="text-danger">*</span>
                             <input type="date" class="form-control" name="indent_date" id="indent_date" placeholder="Indent Date" tabindex="4" readonly>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="production_date">Production Date</label><span class="text-danger">*</span>
                             <input type="date" class="form-control" name="production_date" id="production_date" placeholder="Production Date" tabindex="5" readonly>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="day_code">Day Code</label><span class="text-danger">*</span>
                             <input type="text" class="form-control" name="day_code" id="day_code" placeholder="Day Code" tabindex="6" readonly>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="prodn_in_charge">Prodn in Charge</label><span class="text-danger">*</span>
                             <input type="text" class="form-control" name="prodn_in_charge" id="prodn_in_charge" placeholder="Prodn in Charge" tabindex="7" readonly>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="Confirm Password">Shift</label><span class="text-danger">*</span>
                             <input type="text" class="form-control" name="shift" id="shift" placeholder="Shift" tabindex="8" readonly>

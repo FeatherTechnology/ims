@@ -148,7 +148,6 @@
                             <input type="text" class="form-control" name="pl_number" id="pl_number" placeholder="Enter PL Number" tabindex="14">
                         </div>
                     </div>
-                   
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="mc_number">Number of MC's</label>
@@ -178,6 +177,8 @@
                             <label for="order_status">Order Status</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="order_status" id="order_status"  tabindex="19">
                                 <option value="">Select Order Status</option>
+                                <option value="">Against Order</option>
+                                <option value="">Non Order</option>
                             </select>
                         </div>
                     </div>
@@ -201,7 +202,6 @@
                             <input type="text" class="form-control" name="stk_hnd_ovr_time" id="stk_hnd_ovr_time" placeholder="Enter Handover Time" tabindex="22">
                         </div>
                     </div>
-                  
                 </div>
             </div>
         </div>
