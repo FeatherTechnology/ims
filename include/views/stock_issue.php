@@ -74,16 +74,17 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1">
-                            <div class="form-group">
-                                <label class="checkbox-inline h6">
-                                    <input type="checkbox" value=""> Partial
+                            <div class="form-group" style="display:flex;">
+                                <input type="checkbox" value="">
+                                <label class="checkbox-inline ">
+                                    Partial
                                 </label>
                             </div>
                         </div>
                         <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1">
-                            <div class="form-group">
-                                <label class="checkbox-inline h6">
-                                    <input type="checkbox" value=""> Full
+                            <div class="form-group" style="display:flex;">
+                                <input type="checkbox" value="">
+                                <label class="checkbox-inline "> Full
                                 </label>
                             </div>
                         </div>
@@ -120,7 +121,7 @@
                                         <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="11" readonly>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control" id="ampm" name="ampm" tabindex="12" disabled>
+                                        <select class="form-control" id="ampm" name="ampm" tabindex="12" disabled style="height:34.6px; width: auto;">
                                             <option value="AM">AM</option>
                                             <option value="PM">PM</option>
                                         </select>
@@ -222,7 +223,7 @@
                                         <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="23" readonly>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control" id="ampm" name="ampm" tabindex="24" disabled>
+                                        <select class="form-control" id="ampm" name="ampm" tabindex="24" style="height:34.6px; width: auto;" disabled>
                                             <option value="AM">AM</option>
                                             <option value="PM">PM</option>
                                         </select>
@@ -340,7 +341,7 @@
                                         <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="35" readonly>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control" id="ampm" name="ampm" tabindex="36" disabled>
+                                        <select class="form-control" id="ampm" name="ampm" tabindex="36" style="height:34.6px; width: auto;" disabled>
                                             <option value="AM">AM</option>
                                             <option value="PM">PM</option>
                                         </select>

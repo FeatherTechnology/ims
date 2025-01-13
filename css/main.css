@@ -9435,6 +9435,10 @@ table.dataTable th {
   background-color: #d4edda !important; /* Light green background */
   color: #155724 !important;            /* Dark green text color */
 }
+.checkbox-inline{
+  padding-left: 10px !important;
+  margin-top: 8px !important;
+}
 
 
   /* Reduce size of table header */
