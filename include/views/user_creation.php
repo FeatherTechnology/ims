@@ -24,6 +24,7 @@
     </div>
 </div>
 <div class="user_creation_content" style="display: none;">
+<input type="hidden" id="user_creation_id" value="0">
     <div class="card">
         <div class="col-12">
             <div class="card-header">
@@ -81,47 +82,7 @@
             <h5 class="card-title">Screen Mapping <span class="text-danger">*</span></h5>
         </div>
         <div class="card-body" id="dynamic-menus">
-            <div class="custom-control custom-checkbox main-menu">
-                <input type="checkbox" value="Yes" name="${mainMenuLink}-mainmenu" id="${mainMenuLink}-mainmenu" tabindex="${tabindex}">&nbsp;&nbsp;
-                <label class="custom-control-label" for="${mainMenuLink}-mainmenu">
-                    <h5>Dashboard</h5>
-                </label>
-            </div>
-            </br>
-            <div class="row" id="${mainMenuLink}-mainmenu-submenus">
-                <!-- Submenus will be appended here -->
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" value="${submenu.sub_menu_id}" class=" submenu-checkbox" name="${submenu.sub_menu_link}" id="${submenu.sub_menu_link}" tabindex="${tabindex}" disabled>&nbsp;&nbsp;
-                        <label class="custom-control-label" for="${submenu.sub_menu_link}">Dashboard</label>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="custom-control custom-checkbox main-menu">
-                <input type="checkbox" value="Yes" name="${mainMenuLink}-mainmenu" id="${mainMenuLink}-mainmenu" tabindex="${tabindex}">&nbsp;&nbsp;
-                <label class="custom-control-label" for="${mainMenuLink}-mainmenu">
-                    <h5>Administration</h5>
-                </label>
-            </div>
-            </br>
-            <div class="row" id="${mainMenuLink}-mainmenu-submenus">
-                <!-- Submenus will be appended here -->
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" value="${submenu.sub_menu_id}" class=" submenu-checkbox" name="${submenu.sub_menu_link}" id="${submenu.sub_menu_link}" tabindex="${tabindex}" disabled>&nbsp;&nbsp;
-                        <label class="custom-control-label" for="${submenu.sub_menu_link}">Company creation</label>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" value="${submenu.sub_menu_id}" class=" submenu-checkbox" name="${submenu.sub_menu_link}" id="${submenu.sub_menu_link}" tabindex="${tabindex}" disabled>&nbsp;&nbsp;
-                        <label class="custom-control-label" for="${submenu.sub_menu_link}">User creation</label>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            
+
         </div>
     </div>
     <!--- ---------------------- Screen Mapping END  ----------------------------- -->

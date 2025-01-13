@@ -48,13 +48,13 @@
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="floor_no">Floor / No</label><span class="text-danger">*</span>
+                                    <label for="floor_no">Floor / No</label>
                                     <input type="text" class="form-control" name="floor_no" id="floor_no" placeholder="Enter Floor No" tabindex="3">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="street">Street</label><span class="text-danger">*</span>
+                                    <label for="street">Street</label>
                                     <input type="text" class="form-control" name="street" id="street" placeholder="Enter Street Name" tabindex="4">
                                 </div>
                             </div>
@@ -110,7 +110,7 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="gu_pic">Photo</label><br>
+                                    <label for="gu_pic">Company Logo</label><span class="text-danger">*</span><br>
                                     <img id='gur_imgshow' class="img_show" src='img/avatar.png' />
                                     <input type="file" class="form-control" style="margin-top: 7px;" name="gu_pic" id="gu_pic" tabindex="12">
                                     <input type="hidden" id="gur_pic">
@@ -130,13 +130,13 @@
                     <div class="col-4">
                         <div class="form-group">
                             <label for="GST No">GST No</label><span class="text-danger">*</span>
-                            <input type="number" class="form-control" name="gst_no" id="gst_no" placeholder="Enter GST No" tabindex="13">
+                            <input type="text" class="form-control" name="gst_no" id="gst_no" placeholder="Enter GST No" tabindex="13">
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="form-group">
                             <label for="EXIM No">EXIM No</label><span class="text-danger">*</span>
-                            <input type="number" class="form-control" name="exim_no" id="exim_no" placeholder="Enter EXIM No" tabindex="14">
+                            <input type="text" class="form-control" name="exim_no" id="exim_no" placeholder="Enter EXIM No" tabindex="14">
                         </div>
                     </div>
                 </div>
@@ -157,7 +157,9 @@
                     <div class="col-4">
                         <div class="form-group">
                             <label for="FY">FY</label><span class="text-danger">*</span>
-                            <input type="number" class="form-control" name="fy" id="fy" placeholder="Enter FY" tabindex="16">
+                            <select type="number" class="form-control" name="fy" id="fy" tabindex="16">
+                                <option>Select FY</option>
+                            </select>
                         </div>
                     </div>
                 </div>
