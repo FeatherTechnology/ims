@@ -90,6 +90,8 @@
                             <label for="shift">Shift</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="shift" id="shift" tabindex="8">
                                 <option value="">Select Shift</option>
+                                <option value="">Day</option>
+                                <option value="">Night</option>
                             </select>
                         </div>
                     </div>

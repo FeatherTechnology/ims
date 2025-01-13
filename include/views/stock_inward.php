@@ -182,12 +182,17 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4"> </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="col-12">
+            <div class="card-body">
                 <div class="row">
                     <div class="card-header">
                         <div class="card-title">Storage Details </div>
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
