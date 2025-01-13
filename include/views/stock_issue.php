@@ -111,16 +111,16 @@
                                 <label for="hours">Issue Time</label><span class="text-danger">*</span>
                                 <div class="form-row">
                                     <div class="col">
-                                        <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="10">
+                                        <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="10" readonly>
                                     </div>
                                     <div class="col-auto">
                                         <span>:</span>
                                     </div>
                                     <div class="col">
-                                        <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="11">
+                                        <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="11" readonly>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control" id="ampm" name="ampm" tabindex="12">
+                                        <select class="form-control" id="ampm" name="ampm" tabindex="12" disabled>
                                             <option value="AM">AM</option>
                                             <option value="PM">PM</option>
                                         </select>
@@ -213,16 +213,16 @@
                                 <label for="hours">Issue Time</label><span class="text-danger">*</span>
                                 <div class="form-row">
                                     <div class="col">
-                                        <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="22">
+                                        <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="22" readonly>
                                     </div>
                                     <div class="col-auto">
                                         <span>:</span>
                                     </div>
                                     <div class="col">
-                                        <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="23">
+                                        <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="23" readonly>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control" id="ampm" name="ampm" tabindex="24">
+                                        <select class="form-control" id="ampm" name="ampm" tabindex="24" disabled>
                                             <option value="AM">AM</option>
                                             <option value="PM">PM</option>
                                         </select>
@@ -331,16 +331,16 @@
                                 <label for="hours">Issue Time</label><span class="text-danger">*</span>
                                 <div class="form-row">
                                     <div class="col">
-                                        <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="34">
+                                        <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="34" readonly>
                                     </div>
                                     <div class="col-auto">
                                         <span>:</span>
                                     </div>
                                     <div class="col">
-                                        <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="35">
+                                        <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="35" readonly>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control" id="ampm" name="ampm" tabindex="36">
+                                        <select class="form-control" id="ampm" name="ampm" tabindex="36" disabled>
                                             <option value="AM">AM</option>
                                             <option value="PM">PM</option>
                                         </select>
