@@ -9,7 +9,7 @@ $(document).ready(function () {
         'staff_creation':'master',
         'storage_location':'master',
         'mtn':'production',
-        'pth':'production',
+        'ptn':'production',
         'stock_inward':'inventory',
         'stock_issue':'inventory',
         

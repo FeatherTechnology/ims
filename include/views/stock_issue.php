@@ -357,7 +357,7 @@
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
                                     <label for="balance_qty">Balance Qty</label><span class="text-danger">*</span>
-                                    <input type="number" class="form-control" name="balance_qty" id="balance_qty" placeholder="Enter Balance Qty" tabindex="37" readonly>
+                                    <input type="number" class="form-control" name="balance_qty" id="balance_qty" placeholder="Balance Qty" tabindex="37" readonly>
                                 </div>
                             </div>
                         </div>

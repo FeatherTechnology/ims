@@ -1,5 +1,5 @@
 <div class="text-right">
-    <button type="button" class="btn btn-primary" id="add_pth"><span class="fa fa-plus"></span>&nbsp; Add PTH</button>
+    <button type="button" class="btn btn-primary" id="add_pth"><span class="fa fa-plus"></span>&nbsp; Add PTN</button>
     <button type="button" class="btn btn-primary" id="back_btn" style="display:none;"><span class="icon-arrow-left"></span>&nbsp; Back </button>
 </div>
 <br>
@@ -63,13 +63,9 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="lot_number">Lot Number</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="lot_number" id="lot_number" placeholder="Enter Lot Number" tabindex="4" readonly>
+                            <input type="text" class="form-control" name="lot_number" id="lot_number" placeholder="Lot Number" tabindex="4" readonly>
                         </div>
                     </div>
-
-
-                   
-
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="production_date">Production Date</label><span class="text-danger">*</span>
@@ -152,7 +148,6 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="pl_number">PL Number / Dummy</label>
-                            <!-- <input type="text" class="form-control" name="pl_number" id="pl_number" placeholder="Enter PL Number" tabindex="14"> -->
                             <select type="text" class="form-control" name="pl_number" id="pl_number" tabindex="11">
                                 <option value="">Select PL Number</option>
                             </select>

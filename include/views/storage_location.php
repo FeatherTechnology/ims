@@ -69,14 +69,14 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="palette">palette</label><span class="text-danger">*</span>
-                            <input type="number" class="form-control" name="palette" id="palette" placeholder="Enter palette" tabindex="7">
+                            <label for="palette">Palette</label><span class="text-danger">*</span>
+                            <input type="number" class="form-control" name="palette" id="palette" placeholder="Enter Palette" tabindex="7">
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="pal_ette">palette</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="pal_ette" id="pal_ette" placeholder="palette" tabindex="8" readonly>
+                            <label for="pal_ette">Palette</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="pal_ette" id="pal_ette" placeholder="Palette" tabindex="8" readonly>
                         </div>
                     </div>
                 </div>
