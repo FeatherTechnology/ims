@@ -58,25 +58,25 @@
                     </div>
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
-                            <label for="bay">Bay</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="bay" id="bay" placeholder="Enter Bay" tabindex="5">
+                            <label for="compartment">Compartment</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="compartment" id="compartment" placeholder="Enter Compartment" tabindex="5">
                         </div>
                     </div>
                     <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
                         <div class="form-group">
-                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_bay_modal" tabindex="6"><span class="icon-add"><span></button>
+                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_compartment_modal" tabindex="6"><span class="icon-add"><span></button>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="bin_No">Bin No</label><span class="text-danger">*</span>
-                            <input type="number" class="form-control" name="bin_No" id="bin_No" placeholder="Enter Bin No" tabindex="7">
+                            <label for="palette">palette</label><span class="text-danger">*</span>
+                            <input type="number" class="form-control" name="palette" id="palette" placeholder="Enter palette" tabindex="7">
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="bin">Bin</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="bin" id="bin" placeholder="Bin" tabindex="8" readonly>
+                            <label for="pal_ette">palette</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="pal_ette" id="pal_ette" placeholder="palette" tabindex="8" readonly>
                         </div>
                     </div>
                 </div>
@@ -183,11 +183,11 @@
         </div>
     </div>
     <!--------------------------------------------------------------------- Modal Box for storage location ---------------------------------------------------->
-    <div class="modal fade" id="add_bay_modal" tabindex="-1">
+    <div class="modal fade" id="add_compartment_modal" tabindex="-1">
         <div class="modal-dialog modal-lg ">
             <div class="modal-content" style="background-color: white">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Add Bay</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add Compartment</h5>
                     <button type="button" class="close" data-dismiss="modal" tabindex="1" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -197,14 +197,14 @@
                         <div class="col-sm-3 col-md-3 col-lg-3"></div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
-                                <label for="add_bay">Bay</label><span class="text-danger">*</span>
-                                <input class="form-control" name="add_bay" id="add_bay" tabindex="2" placeholder="Enter Bay">
-                                <input type="hidden" id="add_bay_id" value='0'>
+                                <label for="add_compartment">Compartment</label><span class="text-danger">*</span>
+                                <input class="form-control" name="add_bay" id="add_compartment" tabindex="2" placeholder="Enter Compartment">
+                                <input type="hidden" id="add_compartment_modal" value='0'>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
-                                <button name="submit_bay" id="submit_bay" class="btn btn-primary" tabindex="3" style="margin-top: 18px;"><span class="icon-check"></span>&nbsp;Submit</button>
+                                <button name="submit_compartment" id="submit_compartment" class="btn btn-primary" tabindex="3" style="margin-top: 18px;"><span class="icon-check"></span>&nbsp;Submit</button>
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@
                             <thead>
                                 <tr>
                                     <th>S.NO</th>
-                                    <th>Bay</th>
+                                    <th>Compartment</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
