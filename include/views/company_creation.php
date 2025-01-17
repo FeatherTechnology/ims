@@ -135,8 +135,8 @@
                     </div>
                     <div class="col-4">
                         <div class="form-group">
-                            <label for="EXIM No">EXIM No</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="exim_no" id="exim_no" placeholder="Enter EXIM No" tabindex="14">
+                            <label for="ie_code">IE Code</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="ie_code" id="ie_code" placeholder="Enter IE Code" tabindex="14">
                         </div>
                     </div>
                 </div>

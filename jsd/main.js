@@ -532,3 +532,89 @@ function moneyFormatIndia(num) {
 
     return isNegative ? "-" + thecash : thecash;
 }
+
+function printForm(formId) {
+    // Show confirmation dialog using Swal
+    Swal.fire({
+        title: 'Print',
+        text: 'Do you want to print this form?',
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonColor: '#009688',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes',
+        cancelButtonText: 'No'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            var form = $('#' + formId).get(0);  // Accessing the raw DOM element
+            console.log("form", form);  // Now logs the actual DOM element
+            var formData = new FormData(form);
+			console.log("formData"+formData);
+            
+            // Create table rows dynamically using jQuery
+            var rows = '';
+            formData.forEach(function(value, key) {
+                rows += `
+                    <tr>
+                      <td><strong>${capitalize(key)}</strong></td>
+                      <td>${value || ''}</td> <!-- No N/A, just empty if no value -->
+                    </tr>
+                `;
+            });
+
+            // Define content to print
+            var content = `
+                <div id="print_content">
+                    <h2>Form Details</h2>
+                    <table>
+                        ${rows}
+                    </table>
+                </div>
+            `;
+
+            // Open a new print window
+            var printWindow = window.open('', '_blank');
+            printWindow.document.write(`
+                <html>
+                <head>
+                    <title>Print Form</title>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 0;
+                            padding: 0;
+                            text-align: center;
+                        }
+                        table {
+                            width: 80%;
+                            margin: 20px auto;
+                            border-collapse: collapse;
+                        }
+                        td {
+                            padding: 8px;
+                            font-size: 14px;
+                            text-align: left;
+                        }
+                    </style>
+                </head>
+                <body>
+                    ${content}
+                </body>
+                </html>
+            `);
+            printWindow.document.close();
+
+            // Trigger print dialog
+            setTimeout(function() {
+                printWindow.focus();
+                printWindow.print();
+                printWindow.close();
+            }, 500);
+        }
+    });
+}
+
+// Helper function to capitalize field names
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).replace('_', ' ');
+}

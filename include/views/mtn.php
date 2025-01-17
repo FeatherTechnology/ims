@@ -1,5 +1,5 @@
 <div class="text-right">
-    <button type="button" class="btn btn-primary" id="add_production_indent"><span class="fa fa-plus"></span>&nbsp; Add Production Indent Creation</button>
+    <button type="button" class="btn btn-primary" id="add_mtn"><span class="fa fa-plus"></span>&nbsp; Add MTN</button>
     <button type="button" class="btn btn-primary" id="back_btn" style="display:none;"><span class="icon-arrow-left"></span>&nbsp; Back </button>
 </div>
 <br>
@@ -10,7 +10,7 @@
                 <thead>
                     <tr>
                         <th>S.NO</th>
-                        <th>Indent ID</th>
+                        <th>MTN ID</th>
                         <th>Shift</th>
                         <th>Date</th>
                         <th>Type of Work</th>
@@ -23,18 +23,19 @@
         </div>
     </div>
 </div>
-<div class="production_indent_creation_content" style="display: none;">
+<form id="myForm">
+<div class="production_indent_creation_content" style="display: none;" id="production_indent_creation_content">
     <div class="card">
         <div class="col-12">
             <div class="card-header">
                 <div class="card-title">Indent info</div>
             </div>
             <div class="card-body">
-                <div class="row">
+                <div class="row" id="con">
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="indent_id">Indent ID</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="indent_id" id="indent_id" placeholder="Indent ID" tabindex="1" readonly>
+                            <label for="mtn_id">MTN ID</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="mtn_id" id="mtn_id" placeholder="MTN ID" tabindex="1" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4 ">
@@ -50,7 +51,7 @@
                     <div class="col-4">
                         <div class="form-group">
                             <label for="date">Date</label><span class="text-danger">*</span>
-                            <input type="date" class="form-control" name="date" id="date" placeholder="Enter Date" tabindex="3">
+                            <input type="date" class="form-control" name="date" id="date" placeholder="Enter Date" tabindex="3" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -154,6 +155,8 @@
         </div>
     </div>
     <div class="text-right">
-        <button type="button" class="btn btn-primary" id="submit_production_indent_creation">Submit</button>
+    <button type="button" class="btn btn-primary" id="print_mtn">Print</button>
+    <button type="button" class="btn btn-primary" id="submit_mtn">Submit</button>
     </div>
 </div>
+</form>

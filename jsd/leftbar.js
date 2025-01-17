@@ -8,8 +8,8 @@ $(document).ready(function () {
         'product_creation':'master',
         'staff_creation':'master',
         'storage_location':'master',
-        'production_indent':'production',
-        'fg_lot_wise':'production',
+        'mtn':'production',
+        'pth':'production',
         'stock_inward':'inventory',
         'stock_issue':'inventory',
         
