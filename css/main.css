@@ -9504,3 +9504,27 @@ table.dataTable th {
 .stock_details{
   margin-bottom: 0rem;
 }
+@media print {
+  body {
+    visibility: hidden;
+  }
+  #print_content {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+  }
+}

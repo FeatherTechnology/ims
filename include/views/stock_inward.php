@@ -12,8 +12,8 @@
                         <th>S.NO</th>
                         <th>Lot No</th>
                         <th>Type</th>
-                        <th>Indent ID</th>
-                        <th>Indent Date</th>
+                        <th>MTN ID</th>
+                        <th>MTN Date</th>
                         <th>Production Date</th>
                         <th>Day Code</th>
                         <th>Prodn in Charge</th>
@@ -27,6 +27,7 @@
         </div>
     </div>
 </div>
+<form id="stock_inward_form">
 <div class="stock_inward_creation_content" id="" style="display: none;">
     <div class="card">
         <div class="col-12">
@@ -51,14 +52,14 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="indent_id">Indent ID</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="indent_id" id="indent_id" placeholder="Indent ID" tabindex="3" readonly>
+                            <label for="mtn_id">MTN ID</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="mtn_id" id="mtn_id" placeholder="MTN ID" tabindex="3" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="indent_date">Indent Date</label><span class="text-danger">*</span>
-                            <input type="date" class="form-control" name="indent_date" id="indent_date" placeholder="Indent Date" tabindex="4" readonly>
+                            <label for="mtn_date">MTN Date</label><span class="text-danger">*</span>
+                            <input type="date" class="form-control" name="mtn_date" id="mtn_date" placeholder="MTN Date" tabindex="4" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -228,8 +229,24 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="receiving_time">Receiving Time</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="receiving_time" id="receiving_time" placeholder="Enter Receiving Time" tabindex="27">
+                            <label for="hours">Receiving Time</label><span class="text-danger">*</span>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="22" readonly>
+                                </div>
+                                <div class="col-auto">
+                                    <span>:</span>
+                                </div>
+                                <div class="col">
+                                    <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="23" readonly>
+                                </div>
+                                <div class="col">
+                                    <select class="form-control" id="ampm" name="ampm" tabindex="24" style="height:34.6px; width: auto;" disabled>
+                                        <option value="AM">AM</option>
+                                        <option value="PM">PM</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -237,6 +254,8 @@
         </div>
     </div>
     <div class="text-right">
-        <button type="button" class="btn btn-primary" id="submit_user_creation">Submit</button>
+    <button type="button" class="btn btn-primary" id="print_stock_inward">Print</button>
+        <button type="button" class="btn btn-primary" id="submit_stock_inward">Submit</button>
     </div>
 </div>
+</form>

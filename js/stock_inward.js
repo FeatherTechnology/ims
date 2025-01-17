@@ -2,6 +2,9 @@ $(document).ready(function () {
     $(document).on('click', '#add_stock_inward, #back_btn', function () {
         swapTableAndCreation();
     });
+    $('#print_stock_inward').click(function() {
+        printForm('stock_inward_form') 
+    })
 })
 function swapTableAndCreation() {
     if ($('.stock_inward_table_content').is(':visible')) {
