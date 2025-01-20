@@ -10,12 +10,16 @@ $(document).ready(function () {
         'storage_location':'master',
         'vendor_master':'master',
         'customer_master':'master',
+        'bank_creation':'master',
         'storage_location':'master',
         'mtn':'production',
         'ptn':'production',
         'stock_inward':'inventory',
         'stock_issue':'inventory',
-        
+        'order':'sales',
+        'pi':'sales',
+        'closing_stock':'report',
+        'against_order_status':'report'
     };
 
     const current_page = localStorage.getItem('currentPage');
