@@ -213,17 +213,17 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="bay">Bay</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="bay" id="bay" placeholder="Enter Bay" tabindex="25">
-                                <option>Select Bay</option>
+                            <label for="compartment">Compartment</label><span class="text-danger">*</span>
+                            <select type="text" class="form-control" name="compartment" id="compartment" placeholder="Enter Compartment" tabindex="25">
+                                <option>Select Compartment</option>
                             </select>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="bin_No">Bin No</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="bin_No" id="bin_No" placeholder="Bin No" tabindex="26">
-                                <option>Select Bin No</option>
+                            <label for="palette">Palette</label><span class="text-danger">*</span>
+                            <select type="number" class="form-control" name="palette" id="palette"  tabindex="26">
+                                <option>Select Palette</option>
                             </select>
                         </div>
                     </div>

@@ -1,12 +1,19 @@
+<style>
+    @media (max-width: 1200px){
+        #dates{
+            padding-top: 20px !important;
+        }
+    }
+</style>
 <div class="report_content">
     <div class="card">
         <div class="col-12">
             <div class="card-body">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="radio-containers" style="margin-left:300px;" id="main_radio">
+                    <div class="col-xl-6 col-md-12"> <!-- Change from col-6 to col-12 col-md-6 for responsiveness -->
+                        <div class="radio-containers" style="display: flex; flex-wrap: wrap; justify-content:center; align-items:center;" id="main_radio"> 
                             <div class="selector">
-                                <div class="selector-item">
+                                <div class="selector-item" >
                                     <input type="radio" id="mtn" name="customer_data_type" class="selector-item_radio" value="MTN" checked>
                                     <label for="mtn" class="selector-item_label">As on date</label>
                                 </div>
@@ -17,13 +24,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <form class="form-inline" style="display: flex; justify-content:center; align-items:center;">
-                            <div class="form-group">
+                    <div class="col-xl-6 col-md-12" id="dates"> <!-- Change from col-6 to col-12 col-md-6 for responsiveness -->
+                        <form class="form-inline" style="display: flex; flex-wrap: wrap; justify-content:center; align-items:center;">
+                            <div class="form-group" style="margin-bottom: 10px;"> <!-- Added margin-bottom for spacing on small screens -->
                                 <label for="date" style="font-size: 16px; margin-right:20px">From Date:</label>
                                 <input type="date" class="form-control" id="date" name="date">
                             </div>
-                            <div class="form-group">
+                            <div class="form-group" style="margin-bottom: 10px;"> <!-- Added margin-bottom for spacing on small screens -->
                                 <label for="dates" style="font-size: 16px; margin-right:20px; margin-left:20px">To Date:</label>
                                 <input type="date" class="form-control" id="dates" name="dates">
                             </div>
@@ -42,7 +49,7 @@
 <div id="report_table_content" style="display: none;">
     <div class="card">
         <div class="card-header">
-        <button type="button" class="btn btn-light" id="run">Excel</button>
+            <button type="button" class="btn btn-light" id="run">Excel</button>
         </div>
         <div class="card-body">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
