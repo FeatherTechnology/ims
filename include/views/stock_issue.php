@@ -53,14 +53,14 @@
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
-                                    <label for="bay_no">Bay No</label><span class="text-danger">*</span>
-                                    <input type="number" class="form-control" name="bay_no" id="bay_no" placeholder="Bay No" tabindex="5" readonly>
+                                    <label for="compartment_no">Compartment No</label><span class="text-danger">*</span>
+                                    <input type="number" class="form-control" name="compartment_no" id="compartment_no" placeholder="Compartment No" tabindex="5" readonly>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
-                                    <label for="qty">Bay Qty</label><span class="text-danger">*</span>
-                                    <input type="text" class="form-control" name="qty" id="qty" placeholder="Qty" tabindex="6" readonly>
+                                    <label for="compartment_qty">Compartment Qty</label><span class="text-danger">*</span>
+                                    <input type="text" class="form-control" name="compartment_qty" id="compartment_qty" placeholder="Compartment Qty" tabindex="6" readonly>
                                 </div>
                             </div>
                         </div>
@@ -179,14 +179,14 @@
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
-                                    <label for="bay_no">Bay No</label><span class="text-danger">*</span>
-                                    <input type="number" class="form-control" name="bay_no" id="bay_no" placeholder="Bay No" tabindex="18" readonly>
+                                    <label for="compartment_no">Compartment No</label><span class="text-danger">*</span>
+                                    <input type="number" class="form-control" name="compartment_no" id="compartment_no" placeholder="Compartment No" tabindex="5" readonly>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
-                                    <label for="qty">Qty</label><span class="text-danger">*</span>
-                                    <input type="text" class="form-control" name="qty" id="qty" placeholder="Qty" tabindex="19" readonly>
+                                    <label for="compartment_qty">Compartment Qty</label><span class="text-danger">*</span>
+                                    <input type="text" class="form-control" name="compartment_qty" id="compartment_qty" placeholder="Compartment Qty" tabindex="6" readonly>
                                 </div>
                             </div>
                         </div>
@@ -283,14 +283,14 @@
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
-                                    <label for="bay_no">Bay No</label><span class="text-danger">*</span>
-                                    <input type="number" class="form-control" name="bay_no" id="bay_no" placeholder="Bay No" tabindex="29" readonly>
+                                    <label for="compartment_no">Compartment No</label><span class="text-danger">*</span>
+                                    <input type="number" class="form-control" name="compartment_no" id="compartment_no" placeholder="Compartment No" tabindex="5" readonly>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
-                                    <label for="bay_qty">Bay Qty</label><span class="text-danger">*</span>
-                                    <input type="text" class="form-control" name="bay_qty" id="bay_qty" placeholder="Bay Qty" tabindex="30" readonly>
+                                    <label for="compartment_qty">Compartment Qty</label><span class="text-danger">*</span>
+                                    <input type="text" class="form-control" name="compartment_qty" id="compartment_qty" placeholder="Compartment Qty" tabindex="6" readonly>
                                 </div>
                             </div>
                         </div>
