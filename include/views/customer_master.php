@@ -34,7 +34,7 @@
     <div class="card">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
             <div class="card-header">
-                <div class="card-title">General info</div>
+                <div class="card-title">General Info</div>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -92,8 +92,8 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="Email">E-Mail Id</label><span class="text-danger">*</span>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter E-Mail Id" tabindex="9">
+                            <label for="Email">E-Mail ID</label><span class="text-danger">*</span>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter E-Mail ID" tabindex="9">
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -109,7 +109,7 @@
     <div class="card">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
             <div class="card-header">
-                <div class="card-title">Agent info</div>
+                <div class="card-title">Agent Info</div>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -121,8 +121,8 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="Email">E-Mail Id</label><span class="text-danger">*</span>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter E-Mail Id" tabindex="12">
+                            <label for="Email">E-Mail ID</label><span class="text-danger">*</span>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter E-Mail ID" tabindex="12">
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -138,7 +138,7 @@
     <div class="card">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
             <div class="card-header">
-                <div class="card-title">Bank info</div>
+                <div class="card-title">Bank Info</div>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -174,6 +174,12 @@
                             <input type="text" class="form-control" name="swift_code" id="swift_code" placeholder="Enter Swift Code" tabindex="18">
                         </div>
                     </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                        <div class="form-group">
+                            <label for="ifsc_code">IFSC Code</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="ifsc_code" id="ifsc_code" placeholder="Enter IFSC Code" tabindex="19">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -181,14 +187,14 @@
     <div class="card">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
             <div class="card-header">
-                <div class="card-title">Other info</div>
+                <div class="card-title">Other Info</div>
             </div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="gst_no">GST Number</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="gst_no" id="gst_no" placeholder="Enter GST Number" tabindex="19">
+                            <label for="gst_no">GST No</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="gst_no" id="gst_no" placeholder="Enter GST No" tabindex="19">
                         </div>
                     </div>
                 </div>
@@ -197,10 +203,10 @@
     </div>
     <div class="row" style="margin-top: 30px;">
         <div class="col-md-6">
-            <button type="button" class="btn btn-primary" id="submit_user_creation">Excel Upload</button>
+            <button type="button" class="btn btn-primary" id="customer_creation">Excel Upload</button>
         </div>
         <div class="col-md-6 text-right">
-            <button type="button" class="btn btn-primary" id="submit_user_creation">Submit</button>
+            <button type="button" class="btn btn-primary" id="customer_creation">Submit</button>
         </div>
     </div>
 </div>

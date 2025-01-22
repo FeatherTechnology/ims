@@ -30,7 +30,7 @@
     <div class="card">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
             <div class="card-header">
-                <div class="card-title">General info</div>
+                <div class="card-title">General Info</div>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -60,7 +60,7 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="Email">E-Mail ID</label><span class="text-danger">*</span>
-                            <input type="email" class="form-control" name="email_id" id="email_id" placeholder="Enter E-Mail ID" tabindex="5">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter E-Mail ID" tabindex="9">
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -76,7 +76,7 @@
     <div class="card">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
             <div class="card-header">
-                <div class="card-title">Department info</div>
+                <div class="card-title">Department Info</div>
             </div>
             <div class="card-body">
                 <div class="row">

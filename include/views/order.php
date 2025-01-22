@@ -34,7 +34,7 @@
         <div class="card">
             <div class="col-12">
                 <div class="card-header">
-                    <div class="card-title">General info</div>
+                    <div class="card-title">General Info</div>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -52,9 +52,9 @@
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
-                                <label for="po_no">PO No</label><span class="text-danger">*</span>
-                                <select type="text" class="form-control" name="po_no" id="po_no" tabindex="3">
-                                    <option>Select PO No</option>
+                                <label for="po_no">PI No</label><span class="text-danger">*</span>
+                                <select type="text" class="form-control" name="pi_no" id="pi_no" tabindex="3">
+                                    <option>Select PI No</option>
                                 </select>
                             </div>
                         </div>
@@ -125,12 +125,6 @@
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
-                                <label for="final_destination">Final Destination</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="final_destination" id="final_destination" placeholder="Enter Final Destination" tabindex="13">
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                            <div class="form-group">
                                 <label for="vessel_voyage">Vessel Name / Voyage No</label><span class="text-danger">*</span>
                                 <input type="text" class="form-control" name="vessel_voyage" id="vessel_voyage" placeholder="Enter Vessel Name / Voyage No" tabindex="14">
                             </div>
@@ -157,9 +151,9 @@
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
-                                <label for="final_destin">Final Destinstion</label><span class="text-danger">*</span>
+                                <label for="final_destin">Final Destination</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="final_destin" id="final_destin" tabindex="18">
-                                    <option>Select Final Destinstion</option>
+                                    <option>Select Final Destination</option>
                                 </select>
                             </div>
                         </div>

@@ -32,7 +32,7 @@
     <div class="card">
         <div class="col-12">
             <div class="card-header">
-                <div class="card-title">General info</div>
+                <div class="card-title">General Info</div>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -123,14 +123,14 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="packing">Type Of Packing</label><span class="text-danger">*</span>
+                            <label for="packing">Type of Packing</label><span class="text-danger">*</span>
                             <input type="text" class="form-control" name="packing" id="packing" placeholder="Type of Packing" tabindex="13" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="pl_number">PL Number / Dummy</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="pl_number" id="pl_number" placeholder="PL Number" tabindex="14" readonly>
+                            <label for="pl_number">PL No / Dummy</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="pl_number" id="pl_number" placeholder="PL No" tabindex="14" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -147,12 +147,6 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="gross_weight">Gross Weight (kg)</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="gross_weight" id="gross_weight" placeholder="Gross Weight" tabindex="17" readonly>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
                             <label for="net_weight">Net Weight (kg)</label><span class="text-danger">*</span>
                             <input type="text" class="form-control" name="net_weight" id="net_weight" placeholder="Gross Weight" tabindex="18" readonly>
                         </div>
@@ -165,8 +159,8 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="order_number">Order Number</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="order_number" id="order_number" placeholder="Order Number" tabindex="20" readonly>
+                            <label for="order_number">Order No</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="order_number" id="order_number" placeholder="Order No" tabindex="20" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">

@@ -39,7 +39,7 @@
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="species">Species</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="species" id="species" placeholder="Enter Species" tabindex="2">
+                            <select type="text" class="form-control" name="species" id="species" placeholder="Enter Species" tabindex="1">
                                 <option>Select Species</option>
                             </select>
                         </div>
@@ -65,7 +65,7 @@
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="glaze">Glaze %</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="glaze" id="glaze" placeholder="Enter Glaze" tabindex="4">
+                            <select type="text" class="form-control" name="glaze" id="glaze" placeholder="Enter Glaze" tabindex="5">
                                 <option>Select Glaze %</option>
                             </select>
                         </div>
@@ -78,53 +78,66 @@
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="type">Type</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="type" id="type" placeholder="Enter Type" tabindex="5">
+                            <select type="text" class="form-control" name="type" id="type" placeholder="Enter Type" tabindex="7">
                                 <option>Select Type</option>
                             </select>
                         </div>
                     </div>
                     <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
                         <div class="form-group">
-                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_type_modal" tabindex="2"><span class="icon-add"><span></button>
+                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_type_modal" tabindex="8"><span class="icon-add"><span></button>
                         </div>
                     </div>
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="variety">Variety</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="variety" id="variety" placeholder="Enter Variety" tabindex="6">
+                            <select type="text" class="form-control" name="variety" id="variety" placeholder="Enter Variety" tabindex="9">
                                 <option>Select Variety</option>
                             </select>
                         </div>
                     </div>
                     <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
                         <div class="form-group">
-                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_variety_modal" tabindex="4"><span class="icon-add"><span></button>
+                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_variety_modal" tabindex="10"><span class="icon-add"><span></button>
                         </div>
                     </div>
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="freezing">Freezing</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="freezing" id="freezing" placeholder="Enter Freezing" tabindex="7">
+                            <select type="text" class="form-control" name="freezing" id="freezing" placeholder="Enter Freezing" tabindex="11">
                                 <option>Select Freezing</option>
                             </select>
                         </div>
                     </div>
                     <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
                         <div class="form-group">
-                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_freezing_modal" tabindex="6"><span class="icon-add"><span></button>
+                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_freezing_modal" tabindex="12"><span class="icon-add"><span></button>
                         </div>
                     </div>
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="grade">Grade</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="grade" id="grade" placeholder="Enter Grade" tabindex="8">
+                            <select type="text" class="form-control" name="grade" id="grade" placeholder="Enter Grade" tabindex="13">
                                 <option>Select Grade</option>
                             </select>
                         </div>
                     </div>
                     <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
                         <div class="form-group">
-                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_grade_modal" tabindex="2"><span class="icon-add"><span></button>
+                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_grade_modal" tabindex="14"><span class="icon-add"><span></button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
+                        <div class="form-group">
+                            <label for="hs_code">HS Code</label><span class="text-danger">*</span>
+                            <select type="text" class="form-control" name="hs_code" id="hs_code"  tabindex="15">
+                                <option>Select HS Code</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_grade_modal" tabindex="16"><span class="icon-add"><span></button>
                         </div>
                     </div>
                 </div>

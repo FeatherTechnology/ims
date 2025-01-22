@@ -31,7 +31,7 @@
     <div class="card">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
             <div class="card-header">
-                <div class="card-title">Bank info</div>
+                <div class="card-title">Bank Info</div>
             </div>
             <div class="card-body">
                 <div class="row">

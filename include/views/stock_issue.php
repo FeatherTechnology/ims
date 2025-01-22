@@ -47,20 +47,14 @@
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
-                                    <label for="rack_no">Rack No</label><span class="text-danger">*</span>
-                                    <input type="number" class="form-control" name="rack_no" id="rack_no" placeholder="Rack No" tabindex="4" readonly>
+                                    <label for="platte_no">Palette No</label><span class="text-danger">*</span>
+                                    <input type="number" class="form-control" name="palette_no" id="platte_no" placeholder="Palette No" tabindex="17" readonly>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
-                                    <label for="compartment_no">Compartment No</label><span class="text-danger">*</span>
-                                    <input type="number" class="form-control" name="compartment_no" id="compartment_no" placeholder="Compartment No" tabindex="5" readonly>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                                <div class="form-group">
-                                    <label for="compartment_qty">Compartment Qty</label><span class="text-danger">*</span>
-                                    <input type="text" class="form-control" name="compartment_qty" id="compartment_qty" placeholder="Compartment Qty" tabindex="6" readonly>
+                                    <label for="qty">Qty</label><span class="text-danger">*</span>
+                                    <input type="text" class="form-control" name="qty" id="qty" placeholder="Qty" tabindex="6" readonly>
                                 </div>
                             </div>
                         </div>
@@ -185,8 +179,8 @@
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
-                                    <label for="compartment_qty">Compartment Qty</label><span class="text-danger">*</span>
-                                    <input type="text" class="form-control" name="compartment_qty" id="compartment_qty" placeholder="Compartment Qty" tabindex="6" readonly>
+                                    <label for="qty">Qty</label><span class="text-danger">*</span>
+                                    <input type="text" class="form-control" name="qty" id="qty" placeholder="Qty Qty" tabindex="6" readonly>
                                 </div>
                             </div>
                         </div>
@@ -306,18 +300,24 @@
                         <div class="row">
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
+                                    <label for="type">Type</label><span class="text-danger">*</span>
+                                    <select type="text" class="form-control" name="type" id="type" tabindex="25">
+                                        <option>Select Type</option>
+                                        <option>External Lab</option>
+                                        <option>Internal Lab</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                                <div class="form-group">
                                     <label for="lab_name">Lab Name</label><span class="text-danger">*</span>
                                     <input type="text" class="form-control" name="lab_name" id="lab_name" placeholder="Enter Lab Name" tabindex="31">
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                                 <div class="form-group">
-                                    <label for="rgp_nrgp">RGP / NRGP</label><span class="text-danger">*</span>
-                                    <select type="text" class="form-control" name="rgp_nrgp" id="rgp_nrgp" tabindex="33">
-                                        <option>Select RGP / NRGP</option>
-                                        <option>RGP</option>
-                                        <option>NRGP</option>
-                                    </select>
+                                    <label for="nrgp">NRGP</label><span class="text-danger">*</span>
+                                    <input type="text" class="form-control" name="nrgp" id="nrgp" placeholder="Enter NRGP" tabindex="33">
                                 </div>
                             </div>
                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">

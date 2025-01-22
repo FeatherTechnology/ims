@@ -28,7 +28,7 @@
     <div class="card">
         <div class="col-12">
             <div class="card-header">
-                <div class="card-title">Add user</div>
+                <div class="card-title">Add User</div>
             </div>
             <div class="card-body">
                 <div class="row">
