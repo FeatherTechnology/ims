@@ -32,7 +32,7 @@
     <div class="card">
         <div class="col-12">
             <div class="card-header">
-                <div class="card-title">Gendral Info</div>
+                <div class="card-title">General Info</div>
             </div>
             <div class="card-body">
                 <div class="row">

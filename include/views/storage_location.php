@@ -13,9 +13,8 @@
                             <th>S.NO</th>
                             <th>Storage Location</th>
                             <th>Rack</th>
-                            <th>Bay</th>
-                            <th>Bin No</th>
-                            <th>Bin</th>
+                            <th>Compartment</th>
+                            <th>Palette</th>
                             <th>Action</th>
                         </tr>
                     </thead>
