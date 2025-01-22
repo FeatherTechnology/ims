@@ -12,7 +12,7 @@
                         <th>S.NO</th>
                         <th>Proforma Inv No</th>
                         <th>Date</th>
-                        <th>Po No</th>
+                        <th>PI No</th>
                         <th>Consignee</th>
                         <th>Address</th>
                         <th>Address 1</th>
