@@ -28,7 +28,7 @@
     <div class="card">
         <div class="col-12">
             <div class="card-header">
-                <div class="card-title">Indent info</div>
+                <div class="card-title">Indent Info</div>
             </div>
             <div class="card-body">
                 <div class="row" id="con">
@@ -110,8 +110,8 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="pl_number">PL Number / Dummy</label>
-                            <input type="text" class="form-control" name="pl_number" id="pl_number" placeholder="PL Number" tabindex="10" readonly>
+                            <label for="pl_number">PL No / Dummy</label>
+                            <input type="text" class="form-control" name="pl_number" id="pl_number" placeholder="PL No" tabindex="10" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">

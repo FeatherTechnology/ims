@@ -30,14 +30,16 @@
     <div class="card">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
             <div class="card-header">
-                <div class="card-title">Storage info</div>
+                <div class="card-title">Storage Info</div>
             </div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="storage_location">Storage Location</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="storage_location" id="storage_location" placeholder="Enter Storage Location" tabindex="1">
+                            <select type="text" class="form-control" name="storage_location" id="storage_location" tabindex="1">
+                                <option>Select Storage Location</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
@@ -48,7 +50,9 @@
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="rack">Rack</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="rack" id="rack" placeholder="Enter Rack" tabindex="3">
+                            <select type="text" class="form-control" name="rack" id="rack" tabindex="3">
+                                <option>Select Rack</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
@@ -59,7 +63,9 @@
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="compartment">Compartment</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="compartment" id="compartment" placeholder="Enter Compartment" tabindex="5">
+                            <select type="text" class="form-control" name="compartment" id="compartment" placeholder="Enter Compartment" tabindex="5">
+                                <option>Select Compartment</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
@@ -104,7 +110,9 @@
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="add_storage">Storage Location</label><span class="text-danger">*</span>
-                                <input class="form-control" name="add_storages" id="add_str" tabindex="2" placeholder="Enter Storage Location">
+                                <select type="text" class="form-control" name="storage_location" id="storage_location" tabindex="1">
+                                    <option>Select Storage Location</option>
+                                </select>
                                 <input type="hidden" id="add_storage_id" value='0'>
                             </div>
                         </div>
@@ -135,7 +143,7 @@
             </div>
         </div>
     </div>
-<!--------------------------------------------------------------------- Modal Box for storage location ---------------------------------------------------->
+    <!--------------------------------------------------------------------- Modal Box for Rack ---------------------------------------------------->
     <div class="modal fade" id="add_rack_modal" tabindex="-1">
         <div class="modal-dialog modal-lg ">
             <div class="modal-content" style="background-color: white">
@@ -151,7 +159,9 @@
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="add_rack">Rack</label><span class="text-danger">*</span>
-                                <input class="form-control" name="add_rack" id="add_rack" tabindex="2" placeholder="Enter Rack">
+                                <select type="text" class="form-control" name="rack" id="rack" tabindex="3">
+                                    <option>Select Rack</option>
+                                </select>
                                 <input type="hidden" id="add_rack_id" value='0'>
                             </div>
                         </div>
@@ -182,7 +192,7 @@
             </div>
         </div>
     </div>
-    <!--------------------------------------------------------------------- Modal Box for storage location ---------------------------------------------------->
+    <!--------------------------------------------------------------------- Modal Box for Compartment ---------------------------------------------------->
     <div class="modal fade" id="add_compartment_modal" tabindex="-1">
         <div class="modal-dialog modal-lg ">
             <div class="modal-content" style="background-color: white">
@@ -198,7 +208,9 @@
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="add_compartment">Compartment</label><span class="text-danger">*</span>
-                                <input class="form-control" name="add_bay" id="add_compartment" tabindex="2" placeholder="Enter Compartment">
+                                <select type="text" class="form-control" name="compartment" id="compartment" placeholder="Enter Compartment" tabindex="5">
+                                    <option>Select Compartment</option>
+                                </select>
                                 <input type="hidden" id="add_compartment_modal" value='0'>
                             </div>
                         </div>

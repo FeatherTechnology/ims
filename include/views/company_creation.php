@@ -88,8 +88,8 @@
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="Email">E-Mail Id</label><span class="text-danger">*</span>
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter E-Mail Id" tabindex="9">
+                                    <label for="Email">E-Mail ID</label><span class="text-danger">*</span>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter E-Mail ID" tabindex="9">
                                 </div>
                             </div>
                             <div class="col-6">
@@ -144,7 +144,7 @@
         </div>
         <div class="card wow">
             <div class="card-header">
-                <div class="card-title">Other info</div>
+                <div class="card-title">Other Info</div>
             </div>
             <div class="card-body">
                 <div class="row">

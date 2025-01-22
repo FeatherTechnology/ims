@@ -62,8 +62,8 @@
 
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="lot_number">Lot Number</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="lot_number" id="lot_number" placeholder="Lot Number" tabindex="4" readonly>
+                            <label for="lot_number">Lot No</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="lot_number" id="lot_number" placeholder="Lot No" tabindex="4" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -141,15 +141,15 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="packing">Type Of Packing</label><span class="text-danger">*</span>
+                            <label for="packing">Type of Packing</label><span class="text-danger">*</span>
                             <input type="text" class="form-control" name="packing" id="packing" placeholder="Enter Packing Type" tabindex="13">
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="pl_number">PL Number / Dummy</label>
+                            <label for="pl_number">PL No / Dummy</label>
                             <select type="text" class="form-control" name="pl_number" id="pl_number" tabindex="11">
-                                <option value="">Select PL Number</option>
+                                <option value="">Select PL No</option>
                             </select>
                         </div>
                     </div>
@@ -163,12 +163,6 @@
                         <div class="form-group">
                             <label for="loose_mc">Loose MC (in kg)</label>
                             <input type="number" class="form-control" name="loose_mc" id="loose_mc" placeholder="Enter Loose MC" tabindex="16">
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
-                            <label for="gross_weight">Gross Weight (kg)</label>
-                            <input type="text" class="form-control" name="gross_weight" id="gross_weight" placeholder="Enter Gross Weight" tabindex="17">
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -189,9 +183,9 @@
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
-                            <label for="order_number">Order Number</label><span class="text-danger">*</span>
+                            <label for="order_number">Order No</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="order_number" id="order_number" tabindex="20">
-                                <option value="">Select Order Number</option>
+                                <option value="">Select Order No</option>
                             </select>
                         </div>
                     </div>
@@ -201,12 +195,6 @@
                             <input type="text" class="form-control" name="seller_name" id="seller_name" placeholder="Seller Name" tabindex="21" readonly>
                         </div>
                     </div>
-                    <!-- <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
-                            <label for="stk_hnd_ovr_time">Stock Handover Time</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="stk_hnd_ovr_time" id="stk_hnd_ovr_time" placeholder="Enter Handover Time" tabindex="22">
-                        </div>
-                    </div> -->
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="hours">Stock Handover Time</label><span class="text-danger">*</span>

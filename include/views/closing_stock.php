@@ -27,12 +27,12 @@
                     <div class="col-xl-6 col-md-12" id="dates"> <!-- Change from col-6 to col-12 col-md-6 for responsiveness -->
                         <form class="form-inline" style="display: flex; flex-wrap: wrap; justify-content:center; align-items:center;">
                             <div class="form-group" style="margin-bottom: 10px;"> <!-- Added margin-bottom for spacing on small screens -->
-                                <label for="date" style="font-size: 16px; margin-right:20px">From Date:</label>
-                                <input type="date" class="form-control" id="date" name="date">
+                                <label for="from_date" style="font-size: 16px; margin-right:20px">From Date:</label>
+                                <input type="date" class="form-control" id="from_date" name="from_date">
                             </div>
                             <div class="form-group" style="margin-bottom: 10px;"> <!-- Added margin-bottom for spacing on small screens -->
-                                <label for="dates" style="font-size: 16px; margin-right:20px; margin-left:20px">To Date:</label>
-                                <input type="date" class="form-control" id="dates" name="dates">
+                                <label for="to_date" style="font-size: 16px; margin-right:20px; margin-left:20px">To Date:</label>
+                                <input type="date" class="form-control" id="to_date" name="to_date">
                             </div>
                         </form>
                     </div>
