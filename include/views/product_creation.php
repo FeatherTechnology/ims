@@ -6,7 +6,7 @@
 <div class="product_table_content">
     <div class="card">
         <div class="card-body">
-            <div class="col-12">
+            <div class="col-12" style="overflow-x:auto;">
                 <table id="product_create" class="table table-bordered">
                     <thead>
                         <tr>
@@ -69,6 +69,8 @@
                             <label for="species">Species</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="species" id="species" placeholder="Enter Species" tabindex="2">
                                 <option>Select Species</option>
+                                <option selected> VNMI</option>
+                                <option>BT</option>
                             </select>
                         </div>
                     </div>
@@ -77,6 +79,8 @@
                             <label for="treatment">Treatment</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="treatment" id="treatment" placeholder="Enter Treatment" tabindex="3">
                                 <option>Select Treatment</option>
+                                <option selected> Soaked</option>
+                                <option>Unsoaked</option>
                             </select>
                         </div>
                     </div>
@@ -87,6 +91,8 @@
                             <label for="glaze">Glaze %</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="glaze" id="glaze" placeholder="Enter Glaze" tabindex="4">
                                 <option>Select Glaze %</option>
+                                <option selected> Nw / Nc</option>
+                                <option>20 % Glaze</option>
                             </select>
                         </div>
                     </div>
@@ -95,6 +101,8 @@
                             <label for="type">Type</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="type" id="type" placeholder="Enter Type" tabindex="5">
                                 <option>Select Type</option>
+                                <option selected>1 x 10Kgs</option>
+                                <option>10 X 1Kgs</option>
                             </select>
                         </div>
                     </div>
@@ -103,6 +111,8 @@
                             <label for="variety">Variety</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="variety" id="variety" placeholder="Enter Variety" tabindex="6">
                                 <option>Select Variety</option>
+                                <option selected>EZPL</option>
+                                <option>HLSO</option>
                             </select>
                         </div>
                     </div>
@@ -111,6 +121,8 @@
                             <label for="freezing">Freezing</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="freezing" id="freezing" placeholder="Enter Freezing" tabindex="7">
                                 <option>Select Freezing</option>
+                                <option selected>IQF</option>
+                                <option>BLOCK</option>
                             </select>
                         </div>
                     </div>
@@ -119,6 +131,8 @@
                             <label for="grade">Grade</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="grade" id="grade" placeholder="Enter Grade" tabindex="8">
                                 <option>Select Grade</option>
+                                <option selected>8 / 12</option>
+                                <option>4 / 6</option>
                             </select>
                         </div>
                     </div>

@@ -22,7 +22,7 @@
                     </div>
                 </div> <br> <br>
                 <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12" style="overflow-x:auto;">
                         <table id="bank_create" class="table table-bordered">
                             <thead>
                                 <tr>
@@ -33,7 +33,7 @@
                                     <th>Size</th>
                                     <th>Grade</th>
                                     <th>Type of Packing</th>
-                                    <th>Qty</th>
+                                    <th>No of MC's</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -93,6 +93,12 @@
                             <select type="text" class="form-control" name="move_to" id="move_to" tabindex="4">
                                 <option>Select Move To</option>
                             </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                        <div class="form-group">
+                            <label for="existing_Palette">Purpose</label><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="existing_Palette" id="existing_Palette" placeholder="Enter Purpose" tabindex="3">
                         </div>
                     </div>
                 </div>

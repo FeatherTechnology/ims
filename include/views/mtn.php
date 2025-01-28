@@ -5,7 +5,7 @@
 <br>
 <div class="card production_indent_table_content">
     <div class="card-body">
-        <div class="col-12">
+        <div class="col-12" style="overflow-x:auto;">
             <table id="production_indent_create" class="table table-bordered">
                 <thead>
                     <tr>

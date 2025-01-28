@@ -146,14 +146,11 @@
                                             <div class="col">
                                                 <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="10" readonly>
                                             </div>
-                                            <div class="col-auto">
-                                                <span>:</span>
-                                            </div>
                                             <div class="col">
                                                 <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="11" readonly>
                                             </div>
                                             <div class="col">
-                                                <select class="form-control" id="ampm" name="ampm" tabindex="12" disabled style="height:34.6px; width: auto;">
+                                                <select class="form-control" id="ampm" name="ampm" tabindex="12" disabled style="height:34.6px; width:auto;">
                                                     <option value="AM">AM</option>
                                                     <option value="PM">PM</option>
                                                 </select>
@@ -291,9 +288,6 @@
                                         <div class="form-row">
                                             <div class="col">
                                                 <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="22" readonly>
-                                            </div>
-                                            <div class="col-auto">
-                                                <span>:</span>
                                             </div>
                                             <div class="col">
                                                 <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="23" readonly>
@@ -463,9 +457,6 @@
                                         <div class="form-row">
                                             <div class="col">
                                                 <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="34" readonly>
-                                            </div>
-                                            <div class="col-auto">
-                                                <span>:</span>
                                             </div>
                                             <div class="col">
                                                 <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="35" readonly>

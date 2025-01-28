@@ -87,7 +87,7 @@
     }
 
     table th {
-        background-color: #4285F4;
+        background-color: #4687ad;
         color: white;
     }
 
