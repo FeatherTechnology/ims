@@ -7,23 +7,39 @@
     <div class="card">
         <div class="card-body">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
-                <table id="customer_create" class="table custom-table">
+                <table id="customer_create" class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>S.NO</th>
-                            <th>Customer Code</th>
+                            <th rowspan="2">S.NO</th>
+                            <th colspan="9">Customer Info</th>
+                            <th colspan="3">Agent Info</th>
+                            <th colspan="7">Bank Info</th>
+                            <th rowspan="2">Action</th>
+                        </tr>
+                        <tr>
                             <th>Customer Name</th>
                             <th>Address</th>
+                            <th>Address 1</th>
                             <th>Place</th>
-                            <th>Pin Code</th>
+                            <th>Pincode</th>
                             <th>State</th>
                             <th>Country</th>
                             <th>Email ID</th>
                             <th>Mobile Number</th>
-                            <th>Action</th>
+                            <th>Agent Name</th>
+                            <th>Mobile Number </th>
+                            <th>Email ID</th>
+                            <th>Bank Name</th>
+                            <th>Account No</th>
+                            <th>Account holder</th>
+                            <th>Branch</th>
+                            <th>Swift Code </th>
+                            <th>IFSC code</th>
+                            <th>GST No</th>
                         </tr>
                     </thead>
                     <tbody>
+
                     </tbody>
                 </table>
             </div>

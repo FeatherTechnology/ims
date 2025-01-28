@@ -5,25 +5,91 @@
 <br>
 <div class="card pi_table_content">
     <div class="card-body">
-        <div class="col-12">
-            <table id="pi_create" class="table custom-table">
+        <div class="col-12" style="overflow-x:auto;">
+            <table id="pi_create" class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>S.NO</th>
-                        <th>PI Reference No</th>
-                        <th>Date</th>
-                        <th>Consignee Code</th>
-                        <th>Consignee</th>
-                        <th>Address</th>
-                        <th>Address 1</th>
-                        <th>Address 2</th>
-                        <th>Postal Code</th>
-                        <th>Tel</th>
-                        <th>Fax</th>
-                        <th>Action</th>
+                        <th rowspan="2" style="vertical-align: middle;">S.NO</th>
+                        <th colspan="10" style="vertical-align: middle;">General Info</th>
+                        <th colspan="3" style="vertical-align: middle;">Shipment Info</th>
+                        <th colspan="8" style="vertical-align: middle;">Stock Details</th>
+                        <th rowspan="2" style="vertical-align: middle;">Action</th>
+                    </tr>
+                    <tr>
+                        <th style="vertical-align: middle;">PI Reference No</th>
+                        <th style="vertical-align: middle;">Date</th>
+                        <th style="vertical-align: middle;">Consignee Code</th>
+                        <th style="vertical-align: middle;">Customer Name</th>
+                        <th style="vertical-align: middle;">Address</th>
+                        <th style="vertical-align: middle;">Address 1</th>
+                        <th style="vertical-align: middle;">Place</th>
+                        <th style="vertical-align: middle;">Pincode</th>
+                        <th style="vertical-align: middle;">Tel</th>
+                        <th style="vertical-align: middle;">Fax</th>
+                        <th style="vertical-align: middle;">Shipment Date</th>
+                        <th style="vertical-align: middle;">Port of Discharge </th>
+                        <th style="vertical-align: middle;">Final Destination </th>
+                        <th style="vertical-align: middle;">Species Name</th>
+                        <th style="vertical-align: middle;">HS code</th>
+                        <th style="vertical-align: middle;">Description of Goods</th>
+                        <th style="vertical-align: middle;">Size [PCS/LBS]</th>
+                        <th style="vertical-align: middle;">No of Cartons</th>
+                        <th style="vertical-align: middle;">Net Kgs</th>
+                        <th style="vertical-align: middle;">Gross Weight</th>
+                        <th style="vertical-align: middle;">Amount</th>
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>TWL/PRO/003/2022-23</td>
+                        <td>07-Sep-22</td>
+                        <td>NA</td>
+                        <td>JINAN WELCOME INDUSTRIAL GROUP CO., LTD.</td>
+                        <td>CHINA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>29-Sep-22</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>VNMI</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>6 x 1.8Kgs</td>
+                        <td>300</td>
+                        <td>3240</td>
+                        <td>3240</td>
+                        <td>NA</td>
+                        <td class="icon-border_color"></td>
+                    </tr>
+                    <tr>
+                    <td>1</td>
+                        <td>TWL/PRO/004/2022-23</td>
+                        <td>13-Sep-22</td>
+                        <td>NA</td>
+                        <td>DOUBLE-COVE TRADING COMPANY</td>
+                        <td>HONG KONG</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>07-Oct-22</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>VNMI</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>6 x 1.4Kgs</td>
+                        <td>71</td>
+                        <td>596.4</td>
+                        <td>596.4</td>
+                        <td>NA</td>
+                        <td class="icon-border_color"></td>
+                    </tr>
                 </tbody>
             </table>
         </div>

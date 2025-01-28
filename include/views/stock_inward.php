@@ -5,20 +5,37 @@
 <br>
 <div class="card stock_inward_table_content">
     <div class="card-body">
-        <div class="col-12">
-            <table id="stock_inward_create" class="table custom-table">
+        <div class="col-12" style="overflow-x:auto;">
+            <table id="stock_inward_create" class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>S.NO</th>
-                        <th>Lot No</th>
-                        <th>Type</th>
-                        <th>MTN ID</th>
-                        <th>MTN Date</th>
-                        <th>Production Date</th>
-                        <th>Day Code</th>
-                        <th>Prodn in Charge</th>
-                        <th>Shift</th>
-                        <th>Action</th>
+                        <th style="vertical-align: middle;">S.NO</th>
+                        <th style="vertical-align: middle;">Lot No</th>
+                        <th style="vertical-align: middle;">Type</th>
+                        <th style="vertical-align: middle;">MTN ID</th>
+                        <th style="vertical-align: middle;">MTN Date</th>
+                        <th style="vertical-align: middle;">Production Date</th>
+                        <th style="vertical-align: middle;">Day Code</th>
+                        <th style="vertical-align: middle;">Prodn Incharge</th>
+                        <th style="vertical-align: middle;">Shift</th>
+                        <th style="vertical-align: middle;">Variety</th>
+                        <th style="vertical-align: middle;">Grade</th>
+                        <th style="vertical-align: middle;">Glaze</th>
+                        <th style="vertical-align: middle;">Packing Style</th>
+                        <th style="vertical-align: middle;">PL No / Dummy</th>
+                        <th style="vertical-align: middle;">No of MC's</th>
+                        <th style="vertical-align: middle;">Loose MC [In Kgs]</th>
+                        <th style="vertical-align: middle;">Net Weight</th>
+                        <th style="vertical-align: middle;">Order Status</th>
+                        <th style="vertical-align: middle;">Order No</th>
+                        <th style="vertical-align: middle;">Seller Name</th>
+                        <th style="vertical-align: middle;">Stock Handover Time</th>
+                        <th style="vertical-align: middle;">Storage Location</th>
+                        <th style="vertical-align: middle;">Rack</th>
+                        <th style="vertical-align: middle;">Compartment</th>
+                        <th style="vertical-align: middle;">Palette</th>
+                        <th style="vertical-align: middle;">Receiving Time</th>
+                        <th style="vertical-align: middle;">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -27,8 +44,8 @@
         </div>
     </div>
 </div>
-<form id="stock_inward_form">
-    <div class="stock_inward_creation_content" id="" style="display: none;">
+<form id="stock_issue_form">
+    <div class="stock_issue_creation_content" id="" style="display: none;">
         <div class="card">
             <div class="col-12">
                 <div class="card-header">

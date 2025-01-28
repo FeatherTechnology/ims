@@ -1,19 +1,57 @@
 <style>
-    @media (max-width: 1200px){
-        #dates{
+    @media (max-width: 1200px) {
+        #dates {
             padding-top: 20px !important;
         }
     }
 </style>
-<div class="report_content">
+<div class="text-right">
+    <button type="button" class="btn btn-primary" id="add_closing_stock"><span class="fa fa-plus"></span>&nbsp; Add Closing Stock Summary Creation</button>
+    <button type="button" class="btn btn-primary" id="back_btn" style="display:none;"><span class="icon-arrow-left"></span>&nbsp; Back </button>
+</div>
+<br>
+<div class="card closing_stock_table_content">
+    <div class="card-body">
+        <div class="col-12" style="overflow-x:auto;">
+            <table id="closing_stock_create" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th rowspan="2" style="vertical-align: middle;">S.NO</th>
+                        <th rowspan="2" style="vertical-align: middle;">Org.</th>
+                        <th rowspan="2" style="vertical-align: middle;">Treatment</th>
+                        <th rowspan="2" style="vertical-align: middle;">Freezing</th>
+                        <th rowspan="2" style="vertical-align: middle;">Glaze %</th>
+                        <th rowspan="2" style="vertical-align: middle;">Variety</th>
+                        <th rowspan="2" style="vertical-align: middle;">Species</th>
+                        <th rowspan="2" style="vertical-align: middle;">Grade</th>
+                        <th rowspan="2" style="vertical-align: middle;">Pack Size</th>
+                        <th rowspan="2" style="vertical-align: middle;">Pouch</th>
+                        <th rowspan="2" style="vertical-align: middle;">Pouch Wt.</th>
+                        <th rowspan="2" style="vertical-align: middle;">MC Wt.</th>
+                        <th colspan="4" style="vertical-align: middle;">Closing Stock</th>
+                    </tr>
+                    <tr class="table-bordered">
+                        <th style="vertical-align: middle;">MC Packed</th>
+                        <th style="vertical-align: middle;">No. of Pouch</th>
+                        <th style="vertical-align: middle;">Pouch Kg</th>
+                        <th style="vertical-align: middle;">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="closing_stock_report_content" style="display: none;">
     <div class="card">
         <div class="col-12">
             <div class="card-body">
                 <div class="row">
-                    <div class="col-xl-6 col-md-12"> <!-- Change from col-6 to col-12 col-md-6 for responsiveness -->
-                        <div class="radio-containers" style="display: flex; flex-wrap: wrap; justify-content:center; align-items:center;" id="main_radio"> 
+                    <div class="col-xl-6 col-md-12">
+                        <div class="radio-containers" style="display: flex; flex-wrap: wrap; justify-content:center; align-items:center;" id="main_radio">
                             <div class="selector">
-                                <div class="selector-item" >
+                                <div class="selector-item">
                                     <input type="radio" id="mtn" name="customer_data_type" class="selector-item_radio" value="MTN" checked>
                                     <label for="mtn" class="selector-item_label">As on date</label>
                                 </div>
@@ -24,13 +62,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-md-12" id="dates"> <!-- Change from col-6 to col-12 col-md-6 for responsiveness -->
+                    <div class="col-xl-6 col-md-12" id="dates">
                         <form class="form-inline" style="display: flex; flex-wrap: wrap; justify-content:center; align-items:center;">
-                            <div class="form-group" style="margin-bottom: 10px;"> <!-- Added margin-bottom for spacing on small screens -->
+                            <div class="form-group" style="margin-bottom: 10px;">
                                 <label for="from_date" style="font-size: 16px; margin-right:20px">From Date:</label>
                                 <input type="date" class="form-control" id="from_date" name="from_date">
                             </div>
-                            <div class="form-group" style="margin-bottom: 10px;"> <!-- Added margin-bottom for spacing on small screens -->
+                            <div class="form-group" style="margin-bottom: 10px;">
                                 <label for="to_date" style="font-size: 16px; margin-right:20px; margin-left:20px">To Date:</label>
                                 <input type="date" class="form-control" id="to_date" name="to_date">
                             </div>
@@ -56,25 +94,25 @@
                 <table id="report_create" class="table table-bordered">
                     <thead>
                         <tr>
-                            <th rowspan="2">S.NO</th>
-                            <th rowspan="2">Org.</th>
-                            <th rowspan="2">Treatment</th>
-                            <th rowspan="2">Freezing</th>
-                            <th rowspan="2">Glaze %</th>
-                            <th rowspan="2">Variety</th>
-                            <th rowspan="2">Species</th>
-                            <th rowspan="2">Grade</th>
-                            <th rowspan="2">Pack Size</th>
-                            <th rowspan="2">Pouch</th>
-                            <th rowspan="2">Pouch Wt.</th>
-                            <th rowspan="2">MC Wt.</th>
-                            <th colspan="4">Closing Stock</th>
+                            <th rowspan="2" style="vertical-align: middle;">S.NO</th>
+                            <th rowspan="2" style="vertical-align: middle;">Org.</th>
+                            <th rowspan="2" style="vertical-align: middle;">Treatment</th>
+                            <th rowspan="2" style="vertical-align: middle;">Freezing</th>
+                            <th rowspan="2" style="vertical-align: middle;">Glaze %</th>
+                            <th rowspan="2" style="vertical-align: middle;">Variety</th>
+                            <th rowspan="2" style="vertical-align: middle;">Species</th>
+                            <th rowspan="2" style="vertical-align: middle;">Grade</th>
+                            <th rowspan="2" style="vertical-align: middle;">Pack Size</th>
+                            <th rowspan="2" style="vertical-align: middle;">Pouch</th>
+                            <th rowspan="2" style="vertical-align: middle;">Pouch Wt.</th>
+                            <th rowspan="2" style="vertical-align: middle;">MC Wt.</th>
+                            <th colspan="4" style="vertical-align: middle;">Closing Stock</th>
                         </tr>
                         <tr class="table-bordered">
-                            <th>MC Packed</th>
-                            <th>No. of Pouch</th>
-                            <th>Pouch Kg</th>
-                            <th>Total</th>
+                            <th style="vertical-align: middle;">MC Packed</th>
+                            <th style="vertical-align: middle;">No. of Pouch</th>
+                            <th style="vertical-align: middle;">Pouch Kg</th>
+                            <th style="vertical-align: middle;">Total</th>
                         </tr>
                     </thead>
                 </table>

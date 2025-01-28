@@ -5,22 +5,45 @@
 <br>
 <div class="card order_table_content">
     <div class="card-body">
-        <div class="col-12">
-            <table id="order_create" class="table custom-table">
+        <div class="col-12" style="overflow-x:auto;">
+            <table id="order_create" class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>S.NO</th>
-                        <th>Proforma Inv No</th>
-                        <th>Date</th>
-                        <th>PI No</th>
-                        <th>Consignee</th>
-                        <th>Address</th>
-                        <th>Address 1</th>
-                        <th>Address 2</th>
-                        <th>Postal Code</th>
-                        <th>Tel</th>
-                        <th>Fax</th>
-                        <th>Action</th>
+                        <th rowspan="2" style="vertical-align: middle;">S.NO</th>
+                        <th colspan="10" style="vertical-align: middle;">General Info</th>
+                        <th colspan="9" style="vertical-align: middle;">Shipment Info</th>
+                        <th colspan="9" style="vertical-align: middle;">Stock Details</th>
+                        <th rowspan="2" style="vertical-align: middle;">Action</th>
+                    </tr>
+                    <tr>
+                        <th style="vertical-align: middle;">Proforma Inv No</th>
+                        <th style="vertical-align: middle;">Date</th>
+                        <th style="vertical-align: middle;">PI No</th>
+                        <th style="vertical-align: middle;">Consignee</th>
+                        <th style="vertical-align: middle;">Address</th>
+                        <th style="vertical-align: middle;">Address 1</th>
+                        <th style="vertical-align: middle;">Place</th>
+                        <th style="vertical-align: middle;">Pincode</th>
+                        <th style="vertical-align: middle;">Tel</th>
+                        <th style="vertical-align: middle;">Fax</th>
+                        <th style="vertical-align: middle;">Pre Carriage Due</th>
+                        <th style="vertical-align: middle;">Orgin of Goods</th>
+                        <th style="vertical-align: middle;">Final Destination </th>
+                        <th style="vertical-align: middle;">Vessel No</th>
+                        <th style="vertical-align: middle;">Port of Loading</th>
+                        <th style="vertical-align: middle;">Terms of delivery</th>
+                        <th style="vertical-align: middle;">Port of Discharge</th>
+                        <th style="vertical-align: middle;">payment Terms</th>
+                        <th style="vertical-align: middle;">Shipment Date</th>
+                        <th style="vertical-align: middle;">Species Name</th>
+                        <th style="vertical-align: middle;">HS Code</th>
+                        <th style="vertical-align: middle;">Description of Goods</th>
+                        <th style="vertical-align: middle;">Size [PCS/LBS]</th>
+                        <th style="vertical-align: middle;">No of Cartons</th>
+                        <th style="vertical-align: middle;">Net Kgs</th>
+                        <th style="vertical-align: middle;">Gross Weight</th>
+                        <th style="vertical-align: middle;">Amount</th>
+                        <th style="vertical-align: middle;">Tolerance</th>
                     </tr>
                 </thead>
                 <tbody>
