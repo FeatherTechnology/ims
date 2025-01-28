@@ -7,22 +7,43 @@
     <div class="card">
         <div class="card-body">
             <div class="col-12">
-                <table id="product_create" class="table custom-table">
+                <table id="product_create" class="table table-bordered">
                     <thead>
                         <tr>
                             <th>S.NO</th>
-                            <th>Product Code</th>
                             <th>Species</th>
-                            <th>Treatment</th>
-                            <th>Glaze %</th>
-                            <th>Type</th>
                             <th>Variety</th>
+                            <th>Treatment</th>
                             <th>Freezing</th>
+                            <th>Glaze %</th>
                             <th>Grade</th>
+                            <th>Type of Packing</th>
                             <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>VNMI</td>
+                            <td>EZPL</td>
+                            <td>Soaked</td>
+                            <td>IQF</td>
+                            <td>Nw / Nc</td>
+                            <td>8 / 12</td>
+                            <td>1 x 10Kgs</td>
+                            <td class="icon-border_color"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>HLSO</td>
+                            <td>EZPL</td>
+                            <td>Unsoaked</td>
+                            <td>Block</td>
+                            <td>Nw / Nc</td>
+                            <td>13 / 15</td>
+                            <td>6 x 1.8Kgs</td>
+                            <td class="icon-border_color"></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

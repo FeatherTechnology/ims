@@ -6,15 +6,22 @@
 <div class="card company_table_content">
     <div class="card-body">
         <div class="col-12">
-            <table id="company_create" class="table custom-table">
+            <table id="company_create" class="table table-bordered">
                 <thead>
                     <tr>
                         <th>S.NO</th>
                         <th>Company Name</th>
+                        <th>Floor No</th>
+                        <th>Street</th>
                         <th>Place</th>
                         <th>State</th>
                         <th>Country</th>
-                        <th>Mobile Number</th>
+                        <th>Phone No</th>
+                        <th>Email ID</th>
+                        <th>Fax No</th>
+                        <th>Website</th>
+                        <th>GST No</th>
+                        <th>IE Code</th>
                         <th>Action</th>
                     </tr>
                 </thead>

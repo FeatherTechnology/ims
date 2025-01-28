@@ -7,12 +7,14 @@
     <div class="card">
         <div class="card-body">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
-                <table id="staff_create" class="table custom-table">
+                <table id="staff_create" class="table table-bordered">
                     <thead>
                         <tr>
                             <th>S.NO</th>
                             <th>Employee ID</th>
                             <th>Employee Name</th>
+                            <th>Gender</th>
+                            <th>Email ID</th>
                             <th>Mobile Number</th>
                             <th>Department</th>
                             <th>Designation</th>

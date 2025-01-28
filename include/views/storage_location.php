@@ -7,14 +7,14 @@
     <div class="card">
         <div class="card-body">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
-                <table id="storage_create" class="table custom-table">
+                <table id="storage_create" class="table table-bordered">
                     <thead>
                         <tr>
                             <th>S.NO</th>
                             <th>Storage Location</th>
                             <th>Rack</th>
                             <th>Compartment</th>
-                            <th>Palette</th>
+                            <th>Palette</th>    
                             <th>Action</th>
                         </tr>
                     </thead>

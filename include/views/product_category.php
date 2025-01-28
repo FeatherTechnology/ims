@@ -7,21 +7,43 @@
     <div class="card">
         <div class="card-body">
             <div class="col-12">
-                <table id="product_category_create" class="table custom-table">
+                <table id="product_category_create" class="table table-bordered ">
                     <thead>
                         <tr>
                             <th>S.NO</th>
                             <th>Species</th>
-                            <th>Treatment</th>
-                            <th>Glaze %</th>
-                            <th>Type</th>
                             <th>Variety</th>
+                            <th>Treatment</th>
                             <th>Freezing</th>
+                            <th>Glaze %</th>
                             <th>Grade</th>
+                            <th>Type of Packing</th>
                             <th>Action</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody >
+                        <tr>
+                            <td>1</td>
+                            <td>VNMI</td>
+                            <td>EZPL</td>
+                            <td>Soaked</td>
+                            <td>IQF</td>
+                            <td>Nw / Nc</td>
+                            <td>8 / 12</td>
+                            <td>1 x 10Kgs</td>
+                            <td class="icon-border_color"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>BT</td>
+                            <td>EZPL</td>
+                            <td>Soaked</td>
+                            <td>IQF</td>
+                            <td>20% Glaze</td>
+                            <td>4 / 6</td>
+                            <td>10 x 1Kgs</td>
+                            <td class="icon-border_color"></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -130,7 +152,7 @@
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="hs_code">HS Code</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="hs_code" id="hs_code"  tabindex="15">
+                            <select type="text" class="form-control" name="hs_code" id="hs_code" tabindex="15">
                                 <option>Select HS Code</option>
                             </select>
                         </div>

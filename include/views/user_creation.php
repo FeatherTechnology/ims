@@ -7,7 +7,7 @@
     <div class="card">
         <div class="card-body">
             <div class="col-12">
-                <table id="user_create" class="table ">
+                <table id="user_create" class="table table-bordered">
                     <thead>
                         <tr>
                             <th>S.NO</th>
