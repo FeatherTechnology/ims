@@ -87,7 +87,7 @@
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="mtn_id">MTN ID</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="mtn_id" id="mtn_id" placeholder="MTN ID" tabindex="1" readonly>
+                                <input type="text" class="form-control" name="mtn_id" id="mtn_id" placeholder="MTN ID" tabindex="1" value="NA" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4 ">
@@ -95,7 +95,7 @@
                                 <label for="shift">Shift</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="shift" id="shift" placeholder="Enter Shift" tabindex="2">
                                     <option>Select Shift</option>
-                                    <option>Day</option>
+                                    <option selected>Day</option>
                                     <option>Night</option>
                                 </select>
                             </div>
@@ -103,7 +103,7 @@
                         <div class="col-4">
                             <div class="form-group">
                                 <label for="date">Date</label><span class="text-danger">*</span>
-                                <input type="date" class="form-control" name="date" id="date" placeholder="Enter Date" tabindex="3" readonly>
+                                <input type="date" class="form-control" name="date" id="date" placeholder="Enter Date" tabindex="3" value="2021-01-01" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -111,7 +111,7 @@
                                 <label for="type_work">Type of Work</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="type_work" id="type_work" placeholder="Enter Shift" tabindex="4">
                                     <option>Select Type of Work</option>
-                                    <option>Rework</option>
+                                    <option selected>Rework</option>
                                     <option>Reglaze</option>
                                     <option>Repacking</option>
                                 </select>
@@ -133,73 +133,75 @@
                                 <label for="lot_no">Lot No</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="lot_no" id="lot_no" placeholder="Enter Lot No" tabindex="5">
                                     <option>Select Lot No</option>
+                                    <option selected>TWL-2162</option>
+                                    <option>TWL-2164</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="variety">Variety</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="variety" id="variety" placeholder="Variety" tabindex="6" readonly>
+                                <input type="text" class="form-control" name="variety" id="variety" placeholder="Variety" tabindex="6" readonly value="PD">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="grade">Grade</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="grade" id="grade" placeholder="Grade" tabindex="7" readonly>
+                                <input type="text" class="form-control" name="grade" id="grade" placeholder="Grade" tabindex="7" readonly value="21/25">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="glaze">Glaze %</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="glaze" id="glaze" placeholder="Glaze" tabindex="8" readonly>
+                                <input type="text" class="form-control" name="glaze" id="glaze" placeholder="Glaze" tabindex="8" readonly value="NW/Nc">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="packing">Packing Style</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="packing" id="packing" placeholder="Packing Style" tabindex="9" readonly>
+                                <input type="text" class="form-control" name="packing" id="packing" placeholder="Packing Style" tabindex="9" readonly value="8*2lbs">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="pl_number">PL No / Dummy</label>
-                                <input type="text" class="form-control" name="pl_number" id="pl_number" placeholder="PL No" tabindex="10" readonly>
+                                <input type="text" class="form-control" name="pl_number" id="pl_number" placeholder="PL No" tabindex="10" readonly value="Dummy">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="mc_number">Number of MC's</label>
-                                <input type="number" class="form-control" name="mc_number" placeholder="Number of MC" id="mc_number" tabindex="11" readonly>
+                                <input type="number" class="form-control" name="mc_number" placeholder="Number of MC" id="mc_number" tabindex="11" readonly value="117">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="loose_mc">Loose MC (in kg)</label>
-                                <input type="number" class="form-control" name="loose_mc" id="loose_mc" placeholder="Loose MC" tabindex="12" readonly>
+                                <input type="number" class="form-control" name="loose_mc" id="loose_mc" placeholder="Loose MC" tabindex="12" readonly value="2.8">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="rack_no">Rack No</label>
-                                <input type="text" class="form-control" name="rack_no" id="rack_no" placeholder="Rack No" tabindex="13" readonly>
+                                <input type="text" class="form-control" name="rack_no" id="rack_no" placeholder="Rack No" tabindex="13" readonly value="NA">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="remarks">Remarks</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="remarks" id="remarks" placeholder="Enter Remarks" tabindex="14">
+                                <input type="text" class="form-control" name="remarks" id="remarks" placeholder="Enter Remarks" tabindex="14" value="NA">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="purpose_work">Purpose of Work</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="purpose_work" id="purpose_work" placeholder="Enter Purpose of Work" tabindex="15">
+                                <input type="text" class="form-control" name="purpose_work" id="purpose_work" placeholder="Enter Purpose of Work" tabindex="15" value="NA">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="prodn_charge">Prodn In Charge</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="prodn_charge" id="prodn_charge" placeholder="Prodn In Charge" tabindex="16" readonly>
+                                <input type="text" class="form-control" name="prodn_charge" id="prodn_charge" placeholder="Prodn In Charge" tabindex="16" readonly value="NA">
                             </div>
                         </div>
                     </div>
