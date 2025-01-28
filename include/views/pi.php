@@ -66,7 +66,7 @@
                         <td class="icon-border_color"></td>
                     </tr>
                     <tr>
-                    <td>1</td>
+                        <td>2</td>
                         <td>TWL/PRO/004/2022-23</td>
                         <td>13-Sep-22</td>
                         <td>NA</td>
@@ -107,13 +107,13 @@
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="pi_reference_no">PI Reference No</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="pi_reference_no" id="pi_reference_no" placeholder="Enter PI Reference No" tabindex="1">
+                                <input type="text" class="form-control" name="pi_reference_no" id="pi_reference_no" value="TWL/PRO/003/2022-23" placeholder="Enter PI Reference No" tabindex="1">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="date">Date</label><span class="text-danger">*</span>
-                                <input type="date" class="form-control" name="date" id="date" tabindex="2">
+                                <input type="date" class="form-control" name="date" id="date" value="2022-09-07" tabindex="2">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -121,49 +121,50 @@
                                 <label for="consignee_code">Consignee Code</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="consignee_code" id="consignee_code" tabindex="3">
                                     <option>Select Consignee Code</option>
+                                    <option selected>NA</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="consignee">Consignee</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="consignee" id="consignee" placeholder="Consignee" tabindex="4" readonly>
+                                <input type="text" class="form-control" name="consignee" id="consignee" value="JINAN WELCOME INDUSTRIAL GROUP CO., LTD." placeholder="Consignee" tabindex="4" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="address">Address</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="address" id="address" placeholder="Address" tabindex="5" readonly>
+                                <input type="text" class="form-control" name="address" id="address" value="CHINA" placeholder="Address" tabindex="5" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="address_1">Address 1</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="address_1" id="address_1" placeholder="Address 1" tabindex="6" readonly>
+                                <input type="text" class="form-control" name="address_1" id="address_1" value="NA" placeholder="Address 1" tabindex="6" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="address_2">Address 2</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="address_2" id="address_2" placeholder="Address 2" tabindex="7" readonly>
+                                <input type="text" class="form-control" name="address_2" id="address_2" value="NA" placeholder="Address 2" tabindex="7" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="postal_code">Postal Code</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="postal_code" id="postal_code" placeholder="Postal Code" tabindex="8" readonly>
+                                <input type="text" class="form-control" name="postal_code" id="postal_code" value="NA" placeholder="Postal Code" tabindex="8" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="tel">Tel</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="tel" id="tel" placeholder="Tel" tabindex="9" readonly>
+                                <input type="text" class="form-control" name="tel" id="tel" placeholder="Tel" value="NA" tabindex="9" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="fax">Fax</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="fax" id="fax" placeholder="Fax" tabindex="10" readonly>
+                                <input type="text" class="form-control" name="fax" id="fax" placeholder="Fax" value="NA" tabindex="10" readonly>
                             </div>
                         </div>
                     </div>
@@ -180,19 +181,19 @@
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="shipment_date">Shipment Date</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="shipment_date" id="shipment_date" placeholder="Enter Shipment Date" tabindex="11">
+                                <input type="date" class="form-control" name="shipment_date" id="shipment_date" value="2022-09-29" placeholder="Enter Shipment Date" tabindex="11">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="port_of_discharge">Port of Discharge</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="port_of_discharge" id="port_of_discharge" placeholder="Enter Port of Discharge" tabindex="12">
+                                <input type="text" class="form-control" name="port_of_discharge" id="port_of_discharge" value="NA" placeholder="Enter Port of Discharge" tabindex="12">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="final_destination">Final Destination</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="final_destination" id="final_destination" placeholder="Enter Final Destination" tabindex="13">
+                                <input type="text" class="form-control" name="final_destination" id="final_destination" value="NA" placeholder="Enter Final Destination" tabindex="13">
                             </div>
                         </div>
                     </div>
@@ -211,6 +212,8 @@
                                 <label for="species_name">Species Name</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="species_name" id="species_name" placeholder="Species Name" tabindex="14">
                                     <option>Select Species Name</option>
+                                    <option selected>VNMI</option>
+                                    <option>BT</option>
                                 </select>
                             </div>
                         </div>
@@ -219,13 +222,14 @@
                                 <label for="hs_code">HS Code</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="hs_code" id="hs_code" placeholder="HS Code" tabindex="15">
                                     <option>Select HS Code</option>
+                                    <option selected>NA</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="description_of_goods">Description of Goods</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="description_of_goods" id="description_of_goods" placeholder="Enter Description of Goods" tabindex="16">
+                                <input type="text" class="form-control" name="description_of_goods" id="description_of_goods"  value="NA" placeholder="Enter Description of Goods" tabindex="16">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
@@ -234,31 +238,33 @@
                                 <input type="hidden" id="size_edit_it">
                                 <select class="form-control" id="size" name="size" tabindex="17" multiple>
                                     <option value="">Select Size [PCS / LBS]</option>
+                                    <option selected>6 x 1.8Kgs</option>
+                                    <option>10 x 1Kgs</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="no_of_cartons">No of Cartons</label><span class="text-danger">*</span>
-                                <input type="number" class="form-control" name="no_of_cartons" id="no_of_cartons" placeholder="Enter No of Cartons" tabindex="18">
+                                <input type="number" class="form-control" name="no_of_cartons" id="no_of_cartons" value="300" placeholder="Enter No of Cartons" tabindex="18">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="net_qty">Net Qty [In Kgs]</label><span class="text-danger">*</span>
-                                <input type="number" class="form-control" name="net_qty" id="net_qty" placeholder=" Enter Net Qty [In Kgs]" tabindex="19">
+                                <input type="number" class="form-control" name="net_qty" id="net_qty" value="3240" placeholder=" Enter Net Qty [In Kgs]" tabindex="19">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="gross_weight">Gross Weight</label><span class="text-danger">*</span>
-                                <input type="number" class="form-control" name="gross_weight" id="gross_weight" placeholder="Enter Gross Weight" tabindex="20">
+                                <input type="number" class="form-control" name="gross_weight" id="gross_weight" value="3240" placeholder="Enter Gross Weight" tabindex="20">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="amount">Amount</label><span class="text-danger">*</span>
-                                <input type="number" class="form-control" name="amount" id="amount" placeholder="Enter Amount" tabindex="21">
+                                <input type="number" class="form-control" name="amount" id="amount"  placeholder="Enter Amount" value="NA" tabindex="21">
                             </div>
                         </div>
                     </div>

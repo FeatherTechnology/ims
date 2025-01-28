@@ -18,8 +18,12 @@ $(document).ready(function () {
         'stock_issue':'inventory',
         'inter_transfer':'inventory',
         'inter_palette_transfer':'inventory',
-        'order':'sales',
+        'sample':'inventory',
+        'complimentary':'inventory',
         'pi':'sales',
+        'order':'sales',
+        'domestic_sales':'sales',
+        'export_sales':'sales',
         'closing_stock':'report',
         'against_order_status':'report'
     };

@@ -1,22 +1,22 @@
 $(document).ready(function () {
-    $(document).on('click', '#add_pth, #back_btn', function () {
+    $(document).on('click', '#add_ptn, #back_btn', function () {
         swapTableAndCreation();
     });
-    $('#print_pth').click(function() {
-        printForm('pthform') 
+    $('#print_ptn').click(function() {
+        printForm('ptnform') 
     });
 })
 function swapTableAndCreation() {
-    if ($('.pth_table_content').is(':visible')) {
-        $('.pth_creation_content').show();
-        $('.pth_table_content').hide();
-        $('#add_pth').hide();
+    if ($('.ptn_table_content').is(':visible')) {
+        $('.ptn_creation_content').show();
+        $('.ptn_table_content').hide();
+        $('#add_ptn').hide();
         $('#back_btn').show();
     }
     else {
-        $('.pth_creation_content').hide();
-        $('.pth_table_content').show();
+        $('.ptn_creation_content').hide();
+        $('.ptn_table_content').show();
         $('#back_btn').hide();
-        $('#add_pth').show();
+        $('#add_ptn').show();
     }
 }

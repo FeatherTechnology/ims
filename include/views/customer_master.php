@@ -6,7 +6,7 @@
 <div class="customer_table_content">
     <div class="card">
         <div class="card-body">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12" style="overflow-x:auto;">
                 <table id="customer_create" class="table table-bordered">
                     <thead>
                         <tr>

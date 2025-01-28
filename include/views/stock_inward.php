@@ -39,13 +39,71 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>TWL-2162</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>01-07-2024</td>
+                        <td>4G01</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>EZPL</td>
+                        <td>21 / 25</td>
+                        <td>Nw / Nc</td>
+                        <td>8 x 2lbs</td>
+                        <td>Dummy</td>
+                        <td>117</td>
+                        <td>0</td>
+                        <td>855.336</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td class="icon-border_color"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>TWL-2120</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>01-07-2024</td>
+                        <td>4G01</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>PD</td>
+                        <td>16 / 20</td>
+                        <td>22 % Glaze</td>
+                        <td>10 x 1Kgs</td>
+                        <td>TWL/PRO/029/2024-25</td>
+                        <td>221</td>
+                        <td>0</td>
+                        <td>2212</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td>NA</td>
+                        <td class="icon-border_color"></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
 <form id="stock_issue_form">
-    <div class="stock_issue_creation_content" id="" style="display: none;">
+    <div class="stock_inward_creation_content" id="" style="display: none;">
         <div class="card">
             <div class="col-12">
                 <div class="card-header">
@@ -244,9 +302,6 @@
                                 <div class="form-row">
                                     <div class="col">
                                         <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="22" readonly>
-                                    </div>
-                                    <div class="col-auto">
-                                        <span>:</span>
                                     </div>
                                     <div class="col">
                                         <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="23" readonly>

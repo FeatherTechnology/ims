@@ -1,9 +1,9 @@
 <div class="text-right">
-    <button type="button" class="btn btn-primary" id="add_pth"><span class="fa fa-plus"></span>&nbsp; Add PTN</button>
+    <button type="button" class="btn btn-primary" id="add_ptn"><span class="fa fa-plus"></span>&nbsp; Add PTN</button>
     <button type="button" class="btn btn-primary" id="back_btn" style="display:none;"><span class="icon-arrow-left"></span>&nbsp; Back </button>
 </div>
 <br>
-<div class="pth_table_content">
+<div class="ptn_table_content">
     <div class="card">
         <div class="card-body">
             <div class="col-12" style="overflow-x:auto;">
@@ -61,7 +61,7 @@
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>TWL-2162</td>
+                            <td>TWL-2163</td>
                             <td>NA</td>
                             <td>NA</td>
                             <td>NA</td>
@@ -70,13 +70,13 @@
                             <td>NA</td>
                             <td>NA</td>
                             <td>EZPL</td>
-                            <td>21 / 25</td>
+                            <td>31 / 40</td>
                             <td>Nw / Nc</td>
-                            <td>8 x 2lbs</td>
-                            <td>Dummy</td>
-                            <td>117</td>
+                            <td>10 x 2lbs</td>
+                            <td>TWL/PRO/027/2024-25</td>
+                            <td>127</td>
                             <td>0</td>
-                            <td>855.336</td>
+                            <td>1161.332</td>
                             <td>NA</td>
                             <td>NA</td>
                             <td>NA</td>
@@ -89,8 +89,8 @@
         </div>
     </div>
 </div>
-<form id="pthform">
-    <div class="pth_creation_content" style="display:none">
+<form id="ptnform">
+    <div class="ptn_creation_content" style="display:none">
         <div class="card">
             <div class="col-12">
                 <div class="card-header">
@@ -121,7 +121,6 @@
                                 <input type="text" class="form-control" name="indent_date" id="indent_date" placeholder="MTN Date" tabindex="3" readonly>
                             </div>
                         </div>
-
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="lot_number">Lot No</label><span class="text-danger">*</span>
@@ -264,9 +263,6 @@
                                     <div class="col">
                                         <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="22" readonly>
                                     </div>
-                                    <div class="col-auto">
-                                        <span>:</span>
-                                    </div>
                                     <div class="col">
                                         <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="23" readonly>
                                     </div>
@@ -286,8 +282,8 @@
 
         <div class="row" style="margin-top: 30px;">
             <div class="col-md-12 text-right">
-                <button type="button" class="btn btn-primary" id="print_pth">Print</button>
-                <button type="button" class="btn btn-primary" id="submit_pth">Submit</button>
+                <button type="button" class="btn btn-primary" id="print_ptn">Print</button>
+                <button type="button" class="btn btn-primary" id="submit_ptn">Submit</button>
             </div>
         </div>
     </div>

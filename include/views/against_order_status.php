@@ -1,31 +1,5 @@
-<div class="text-right">
-    <button type="button" class="btn btn-primary" id="add_against_order"><span class="fa fa-plus"></span>&nbsp; Add Against Order Status Creation</button>
-    <button type="button" class="btn btn-primary" id="back_btn" style="display:none;"><span class="icon-arrow-left"></span>&nbsp; Back </button>
-</div>
-<br>
-<div class="card against_order_table_content">
-    <div class="card-body">
-        <div class="col-12" style="overflow-x:auto;">
-            <table id="against_order_create" class="table table-bordered">
-            <thead>
-                        <tr>
-                            <th>S.NO</th>
-                            <th>Species</th>
-                            <th>Size / Grade</th>
-                            <th>Order Qty</th>
-                            <th>Lot No</th>
-                            <th>Bar Code</th>
-                            <th>Palette Qty</th>
-                            <th>Balance Qty</th>
-                        </tr>
-                    </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
-<div class="card against_order_creation" style="display:none;">
+
+<div class="card against_order_creation">
     <div class="col-12">
         <div class="card-body">
             <div class="row">
@@ -70,7 +44,7 @@
             <button type="button" class="btn btn-light" id="run">Excel</button>
         </div>
         <div class="card-body">
-            <div class="col-12">
+            <div class="col-12" style="overflow-x:auto;">
                 <table id="report_create" class="table table-bordered">
                     <thead>
                         <tr>

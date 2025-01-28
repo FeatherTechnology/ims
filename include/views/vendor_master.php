@@ -7,7 +7,7 @@
     <div class="card">
         <div class="card-body">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
-                <table id="vendor_table" class="table custom-table">
+                <table id="vendor_table" class="table table-bordered">
                     <thead>
                         <tr>
                             <th>S.NO</th>
