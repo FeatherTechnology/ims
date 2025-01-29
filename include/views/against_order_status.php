@@ -60,7 +60,30 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- Dynamic content will be inserted here -->
+                        <tr>
+                            <td>1</td>
+                            <td>TWL/PRO/114/2024-25</td>
+                            <td>VNMI</td>
+                            <td>31/35</td>
+                            <td>4320</td>
+                            <td>2897AM12TW001</td>
+                            <td>112AAS45000</td>
+                            <td>4320</td>
+                            <td>-</td>
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>TWL/PRO/114/2024-25</td>
+                            <td>VNMI</td>
+                            <td>31/40</td>
+                            <td>4320</td>
+                            <td>2983AM27TW001</td>
+                            <td>112AAS45000</td>
+                            <td>4320</td>
+                            <td>-</td>
+
+                        </tr>
                     </tbody>
                 </table>
             </div>

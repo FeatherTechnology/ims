@@ -9,7 +9,7 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="sys_date">Date</label><span class="text-danger">*</span>
-                            <input type="date" class="form-control" name="sys_date" id="sys_date" tabindex="1">
+                            <input type="date" class="form-control" name="sys_date" id="sys_date" tabindex="1" value="2025-01-29">
                         </div>
                     </div>
                     <br>
@@ -35,6 +35,30 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>TW001</td>
+                                    <td>VNMIEZPLNw/NcSoakedIQF8/121x10Kgs</td>
+                                    <td>112AAS45000</td>
+                                    <td>SL-1_A_G_A</td>
+                                    <td>216</td>
+                                    <td>112AAS45000</td>
+                                    <td>SL-1_A_G_A</td>
+                                    <td>215</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>TW002</td>
+                                    <td>BTEZPL20% GlazeSoakedIQF4/610x1Kgs</td>
+                                    <td>112AAS45001</td>
+                                    <td>SL-1_A_G_B</td>
+                                    <td>35</td>
+                                    <td>112AAS45001</td>
+                                    <td>SL-1_A_G_B</td>
+                                    <td>36</td>
+                                    <td>-1</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
