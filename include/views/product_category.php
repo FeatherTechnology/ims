@@ -33,17 +33,6 @@
                             <td>1 * 10Kgs</td>
                             <td class="icon-border_color"></td>
                         </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>BT</td>
-                            <td>EZPL</td>
-                            <td>Soaked</td>
-                            <td>IQF</td>
-                            <td>20% Glaze</td>
-                            <td>4 / 6</td>
-                            <td>10 * 1Kgs</td>
-                            <td class="icon-border_color"></td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -93,7 +82,7 @@
                             <label for="glaze">Glaze %</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="glaze" id="glaze" placeholder="Enter Glaze" tabindex="5">
                                 <option>Select Glaze %</option>
-                                <option selected>Nw/Nc</option>
+                                <option selected>Nw / Nc</option>
                                 <option>20% Glaze</option>
                             </select>
                         </div>
@@ -167,6 +156,7 @@
                             <label for="hs_code">HS Code</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="hs_code" id="hs_code" tabindex="15">
                                 <option>Select HS Code</option>
+                                <option selected>030617</option>
                             </select>
                         </div>
                     </div>

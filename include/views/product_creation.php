@@ -33,17 +33,6 @@
                             <td>1 * 10Kgs</td>
                             <td class="icon-border_color"></td>
                         </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>BT</td>
-                            <td>EZPL</td>
-                            <td>Soaked</td>
-                            <td>IQF</td>
-                            <td>20% Glaze</td>
-                            <td>4 / 6</td>
-                            <td>10 * 1Kgs</td>
-                            <td class="icon-border_color"></td>
-                        </tr>
                     </tbody>
                 </table>
             </div>

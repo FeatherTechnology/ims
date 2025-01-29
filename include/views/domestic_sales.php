@@ -206,7 +206,7 @@
                                         <input type="number" class="form-control" id="seconds" name="seconds" min="0" max="59" placeholder="MM" value="00" tabindex="18" readonly>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control" id="ampm" name="ampm" tabindex="19" style="height:34.6px; width: auto;" disabled>
+                                        <select class="form-control" id="ampm" name="ampm" tabindex="19" style="height:35px;" disabled>
                                             <option value="AM">AM</option>
                                             <option value="PM" selected>PM</option>
                                         </select>

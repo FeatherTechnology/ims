@@ -48,7 +48,7 @@
                     </div>
                     <br>
                 
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12" style="overflow-x: auto;">
                         <table id="stock_details_list" class="table table-bordered">
                             <thead>
                                 <tr>
@@ -153,7 +153,7 @@
                                         <input type="number" class="form-control" id="seconds" name="seconds" min="0" max="59" placeholder="MM" value="30" tabindex="11" readonly>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control" id="ampm" name="ampm" tabindex="12" style="height:34.6px; width: auto;" disabled>
+                                        <select class="form-control" id="ampm" name="ampm" tabindex="12" style="height:35px;" disabled>
                                             <option value="AM">AM</option>
                                             <option value="PM" selected>PM</option>
                                         </select>
