@@ -1,5 +1,5 @@
 <div class="text-right">
-    <button type="button" class="btn btn-primary" id="add_user"><span class="fa fa-plus"></span>&nbsp; Add User Creation</button>
+    <button type="button" class="btn btn-primary" id="add_user"><span class="fa fa-plus"></span>&nbsp; Add Manage User Creation</button>
     <button type="button" class="btn btn-primary" id="back_btn" style="display:none;"><span class="icon-arrow-left"></span>&nbsp; Back </button>
 </div>
 <br>

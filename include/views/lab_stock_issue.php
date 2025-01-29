@@ -5,7 +5,7 @@
 <br>
 <div class="card lab_stock_issue_table">
     <div class="card-body">
-        <div class="col-12">
+        <div class="col-12" style="overflow-x: auto;">
             <table id="lab_create" class="table table-bordered">
                 <thead>
                     <tr>

@@ -59,30 +59,6 @@
                             <td>11:30:35</td>
                             <td class="icon-border_color"></td>
                         </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>2897AM12TW001</td>
-                            <td>Fresh</td>
-                            <td></td>
-                            <td></td>
-                            <td>12-Dec-24</td>
-                            <td>AM12</td>
-                            <td>Prabakaran</td>
-                            <td>Day</td>
-                            <td>HLSO</td>
-                            <td>31/35</td>
-                            <td>Nw/Nc</td>
-                            <td>6*1.8Kgs</td>
-                            <td>TWL/PRO/114/2024-25</td>
-                            <td>48</td>
-                            <td>0</td>
-                            <td>527.4</td>
-                            <td>Yes</td>
-                            <td>114</td>
-                            <td>TAIKA SEAFOOD CORPORATION</td>
-                            <td>14:30:45</td>
-                            <td class="icon-border_color"></td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -276,7 +252,7 @@
                                         <input type="number" class="form-control" id="seconds" name="seconds" min="0" max="59" placeholder="MM" value="35" tabindex="23" readonly>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control" id="ampm" name="ampm" tabindex="24" style="height:34.6px; width: auto;" disabled>
+                                        <select class="form-control" id="ampm" name="ampm" tabindex="24" style="height: 35px;" disabled>
                                             <option value="AM" selected>AM</option>
                                             <option value="PM">PM</option>
                                         </select>
