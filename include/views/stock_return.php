@@ -23,7 +23,7 @@
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="sys_date">Date</label><span class="text-danger">*</span>
-                                <input type="date" class="form-control" name="sys_date" id="sys_date" tabindex="1">
+                                <input type="date" class="form-control" name="sys_date" id="sys_date" value="2025-01-29" tabindex="1">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -31,6 +31,7 @@
                                 <label for="sales_order_no">Sales Order Number</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="sales_order_no" id="sales_order_no" tabindex="2">
                                     <option>Select Sales Order Number</option>
+                                    <option selected>114</option>
                                 </select>
                             </div>
                         </div>
@@ -65,40 +66,16 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Display</td>
-                                    <td>Display</td>
-                                    <td>Display</td>
-                                    <td>Display</td>
-                                    <td>Display</td>
-                                    <td>Display</td>
-                                    <td>Display</td>
-                                    <td>Display</td>
-                                    <td>Display</td>
-                                    <td>Display</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>1</td>
+                                    <td>VNMI</td>
+                                    <td>0306097</td>
+                                    <td>28534M04TW001</td>
+                                    <td>HLSO</td>
+                                    <td>1*10Kgs</td>
+                                    <td>41/50</td>
+                                    <td>6*1.8Kgs</td>
+                                    <td>216</td>
+                                    <td>4230</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -109,7 +86,7 @@
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="reason_for_return">Reason For Return</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="reason_for_return" id="reason_for_return" placeholder="Enter Reason For Return" tabindex="4">
+                                <input type="text" class="form-control" name="reason_for_return" id="reason_for_return" placeholder="Enter Reason For Return" value="Quality of the product was not matched " tabindex="4">
                             </div>
                         </div>
                     </div>
@@ -132,6 +109,7 @@
                                 <label for="storage_location">Storage Location</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="storage_location" id="storage_location" tabindex="5">
                                     <option>Select Storage Location</option>
+                                    <option selected>SL-1</option>
                                 </select>
                             </div>
                         </div>
@@ -140,6 +118,7 @@
                                 <label for="rack">Rack</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="rack" id="rack" tabindex="6">
                                     <option>Select Rack</option>
+                                    <option selected>A</option>
                                 </select>
                             </div>
                         </div>
@@ -148,14 +127,15 @@
                                 <label for="compartment">Compartment</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="compartment" id="compartment" tabindex="7">
                                     <option>Select Compartment</option>
+                                    <option selected>G</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
-                                <label for="pallette_no">Pallette Number</label><span class="text-danger">*</span>
+                                <label for="pallette_no">Palette Number</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="pallette_no" id="pallette_no" tabindex="8">
-                                    <option>Select Pallette Number</option>
+                                    <option selected>C</option>
                                 </select>
                             </div>
                         </div>
@@ -164,15 +144,18 @@
                                 <label for="hours">Issue Time</label><span class="text-danger">*</span>
                                 <div class="form-row">
                                     <div class="col">
-                                        <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" tabindex="34" readonly>
+                                        <input type="number" class="form-control" id="hours" name="hours" min="1" max="12" placeholder="HH" value="12" tabindex="9" readonly>
                                     </div>
                                     <div class="col">
-                                        <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" tabindex="35" readonly>
+                                        <input type="number" class="form-control" id="minutes" name="minutes" min="0" max="59" placeholder="MM" value="30" tabindex="10" readonly>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control" id="ampm" name="ampm" tabindex="36" style="height:34.6px; width: auto;" disabled>
+                                        <input type="number" class="form-control" id="seconds" name="seconds" min="0" max="59" placeholder="MM" value="30" tabindex="11" readonly>
+                                    </div>
+                                    <div class="col">
+                                        <select class="form-control" id="ampm" name="ampm" tabindex="12" style="height:34.6px; width: auto;" disabled>
                                             <option value="AM">AM</option>
-                                            <option value="PM">PM</option>
+                                            <option value="PM" selected>PM</option>
                                         </select>
                                     </div>
                                 </div>
@@ -184,6 +167,6 @@
         </div>
     </div>
     <div class="text-right">
-        <button type="button" class="btn btn-primary" id="submit_stock_issue_creation">Submit</button>
+        <button type="button" class="btn btn-primary" id="submit_stock_issue_creation" tabindex="13">Submit</button>
     </div>
 </form>

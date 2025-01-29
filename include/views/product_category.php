@@ -30,7 +30,7 @@
                             <td>IQF</td>
                             <td>Nw / Nc</td>
                             <td>8 / 12</td>
-                            <td>1 x 10Kgs</td>
+                            <td>1 * 10Kgs</td>
                             <td class="icon-border_color"></td>
                         </tr>
                         <tr>
@@ -41,7 +41,7 @@
                             <td>IQF</td>
                             <td>20% Glaze</td>
                             <td>4 / 6</td>
-                            <td>10 x 1Kgs</td>
+                            <td>10 * 1Kgs</td>
                             <td class="icon-border_color"></td>
                         </tr>
                     </tbody>
@@ -94,7 +94,7 @@
                             <select type="text" class="form-control" name="glaze" id="glaze" placeholder="Enter Glaze" tabindex="5">
                                 <option>Select Glaze %</option>
                                 <option selected>Nw/Nc</option>
-                                <option>25% Glaze</option>
+                                <option>20% Glaze</option>
                             </select>
                         </div>
                     </div>
@@ -124,7 +124,6 @@
                             <select type="text" class="form-control" name="variety" id="variety" placeholder="Enter Variety" tabindex="9">
                                 <option>Select Variety</option>
                                 <option selected>EZPL</option>
-                                <option>EZPL</option>
                             </select>
                         </div>
                     </div>
@@ -139,7 +138,7 @@
                             <select type="text" class="form-control" name="freezing" id="freezing" placeholder="Enter Freezing" tabindex="11">
                                 <option>Select Freezing</option>
                                 <option selected>IQF</option>
-                                <option>Block</option>
+                                <option>BLOCK</option>
                             </select>
                         </div>
                     </div>
@@ -154,7 +153,7 @@
                             <select type="text" class="form-control" name="grade" id="grade" placeholder="Enter Grade" tabindex="13">
                                 <option>Select Grade</option>
                                 <option selected>8/12</option>
-                                <option>8/12</option>
+                                <option>4/6</option>
                             </select>
                         </div>
                     </div>
@@ -168,7 +167,6 @@
                             <label for="hs_code">HS Code</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="hs_code" id="hs_code" tabindex="15">
                                 <option>Select HS Code</option>
-                                <option selected>NA</option>
                             </select>
                         </div>
                     </div>
@@ -183,10 +181,10 @@
     </div>
     <div class="row" style="margin-top: 30px;">
         <div class="col-md-6">
-            <button type="button" class="btn btn-primary" id="submit_product_category_creation">Excel Upload</button>
+            <button type="button" class="btn btn-primary" id="submit_product_category_creation" tabindex="17">Excel Upload</button>
         </div>
         <div class="col-md-6 text-right">
-            <button type="button" class="btn btn-primary" id="submit_product_category_creation">Submit</button>
+            <button type="button" class="btn btn-primary" id="submit_product_category_creation" tabindex="18">Submit</button>
         </div>
     </div>
     <!--------------------------------------------------------------------- Modal Box for species --------------------------------------------------------------->
@@ -232,7 +230,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-primary" data-dismiss="modal" tabindex="17">Close</button>
+                    <button class="btn btn-primary" data-dismiss="modal" tabindex="4">Close</button>
                 </div>
             </div>
         </div>
