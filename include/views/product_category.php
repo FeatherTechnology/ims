@@ -159,7 +159,7 @@
                     </div>
                     <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
                         <div class="form-group">
-                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_grade_modal" tabindex="16"><span class="icon-add"><span></button>
+                            <button type="button" class="btn btn-primary modalBtnCss" data-toggle="modal" data-target="#add_hscode_modal" tabindex="16"><span class="icon-add"><span></button>
                         </div>
                     </div>
                 </div>
@@ -174,6 +174,7 @@
             <button type="button" class="btn btn-primary" id="submit_product_category_creation">Submit</button>
         </div>
     </div>
+    
     <!--------------------------------------------------------------------- Modal Box for species --------------------------------------------------------------->
 
     <div class="modal fade" id="add_species_modal" tabindex="-1">
@@ -207,6 +208,342 @@
                                 <tr>
                                     <th>S.NO</th>
                                     <th>Species</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" tabindex="17">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------- Modal Box for Treatment --------------------------------------------------------------->
+
+    <div class="modal fade" id="add_treatment_modal" tabindex="-1">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content" style="background-color: white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add Treatment</h5>
+                    <button type="button" class="close" data-dismiss="modal" tabindex="1" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="add_treatment">Treatment</label><span class="text-danger">*</span>
+                                <input class="form-control" name="add_storages" id="add_str" tabindex="2" placeholder="Enter Treatment">
+                                <input type="hidden" id="add_treatment_id" value='0'>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <button name="submit_treatment" id="submit_treatment" class="btn btn-primary" tabindex="3" style="margin-top: 18px;"><span class="icon-check"></span>&nbsp;Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                        <table id="treatment_creation_table" class="table ">
+                            <thead>
+                                <tr>
+                                    <th>S.NO</th>
+                                    <th>Treatment</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" tabindex="17">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------- Modal Box for Glaze % --------------------------------------------------------------->
+
+    <div class="modal fade" id="add_glaze_modal" tabindex="-1">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content" style="background-color: white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add Glaze %</h5>
+                    <button type="button" class="close" data-dismiss="modal" tabindex="1" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="add_glaze">Glaze %</label><span class="text-danger">*</span>
+                                <input class="form-control" name="add_storages" id="add_str" tabindex="2" placeholder="Enter Glaze %">
+                                <input type="hidden" id="add_glaze_id" value='0'>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <button name="submit_glaze" id="submit_glaze" class="btn btn-primary" tabindex="3" style="margin-top: 18px;"><span class="icon-check"></span>&nbsp;Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                        <table id="glaze_creation_table" class="table ">
+                            <thead>
+                                <tr>
+                                    <th>S.NO</th>
+                                    <th>Glaze %</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" tabindex="17">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------- Modal Box for Type --------------------------------------------------------------->
+
+    <div class="modal fade" id="add_type_modal" tabindex="-1">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content" style="background-color: white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add Type</h5>
+                    <button type="button" class="close" data-dismiss="modal" tabindex="1" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="add_type">Type</label><span class="text-danger">*</span>
+                                <input class="form-control" name="add_storages" id="add_str" tabindex="2" placeholder="Enter Type">
+                                <input type="hidden" id="add_type_id" value='0'>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <button name="submit_type" id="submit_type" class="btn btn-primary" tabindex="3" style="margin-top: 18px;"><span class="icon-check"></span>&nbsp;Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                        <table id="type_creation_table" class="table ">
+                            <thead>
+                                <tr>
+                                    <th>S.NO</th>
+                                    <th>Type</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" tabindex="17">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------- Modal Box for Variety --------------------------------------------------------------->
+
+    <div class="modal fade" id="add_variety_modal" tabindex="-1">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content" style="background-color: white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add Variety</h5>
+                    <button type="button" class="close" data-dismiss="modal" tabindex="1" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="add_variety">Variety</label><span class="text-danger">*</span>
+                                <input class="form-control" name="add_storages" id="add_str" tabindex="2" placeholder="Enter Variety">
+                                <input type="hidden" id="add_variety_id" value='0'>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <button name="submit_variety" id="submit_variety" class="btn btn-primary" tabindex="3" style="margin-top: 18px;"><span class="icon-check"></span>&nbsp;Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                        <table id="variety_creation_table" class="table ">
+                            <thead>
+                                <tr>
+                                    <th>S.NO</th>
+                                    <th>Variety</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" tabindex="17">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------- Modal Box for Freezing --------------------------------------------------------------->
+
+    <div class="modal fade" id="add_freezing_modal" tabindex="-1">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content" style="background-color: white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add Freezing</h5>
+                    <button type="button" class="close" data-dismiss="modal" tabindex="1" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="add_freezing">Freezing</label><span class="text-danger">*</span>
+                                <input class="form-control" name="add_storages" id="add_str" tabindex="2" placeholder="Enter Freezing">
+                                <input type="hidden" id="add_freezing_id" value='0'>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <button name="submit_freezing" id="submit_freezing" class="btn btn-primary" tabindex="3" style="margin-top: 18px;"><span class="icon-check"></span>&nbsp;Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                        <table id="freezing_creation_table" class="table ">
+                            <thead>
+                                <tr>
+                                    <th>S.NO</th>
+                                    <th>Freezing</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" tabindex="17">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------- Modal Box for Grade --------------------------------------------------------------->
+
+    <div class="modal fade" id="add_grade_modal" tabindex="-1">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content" style="background-color: white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add Grade</h5>
+                    <button type="button" class="close" data-dismiss="modal" tabindex="1" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="add_grade">Grade</label><span class="text-danger">*</span>
+                                <input class="form-control" name="add_storages" id="add_str" tabindex="2" placeholder="Enter Grade">
+                                <input type="hidden" id="add_grade_id" value='0'>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <button name="submit_grade" id="submit_grade" class="btn btn-primary" tabindex="3" style="margin-top: 18px;"><span class="icon-check"></span>&nbsp;Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                        <table id="grade_creation_table" class="table ">
+                            <thead>
+                                <tr>
+                                    <th>S.NO</th>
+                                    <th>Grade</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" tabindex="17">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------- Modal Box for HS Code --------------------------------------------------------------->
+
+    <div class="modal fade" id="add_hscode_modal" tabindex="-1">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content" style="background-color: white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add HS Code</h5>
+                    <button type="button" class="close" data-dismiss="modal" tabindex="1" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="add_hscode">HS Code</label><span class="text-danger">*</span>
+                                <input class="form-control" name="add_storages" id="add_str" tabindex="2" placeholder="Enter HS Code">
+                                <input type="hidden" id="add_hscode_id" value='0'>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <button name="submit_hscode" id="submit_hscode" class="btn btn-primary" tabindex="3" style="margin-top: 18px;"><span class="icon-check"></span>&nbsp;Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                        <table id="hscode_creation_table" class="table ">
+                            <thead>
+                                <tr>
+                                    <th>S.NO</th>
+                                    <th>HS Code</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
