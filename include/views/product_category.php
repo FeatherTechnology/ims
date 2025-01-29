@@ -30,7 +30,7 @@
                             <td>IQF</td>
                             <td>Nw / Nc</td>
                             <td>8 / 12</td>
-                            <td>1 x 10Kgs</td>
+                            <td>1 * 10Kgs</td>
                             <td class="icon-border_color"></td>
                         </tr>
                         <tr>
@@ -41,7 +41,7 @@
                             <td>IQF</td>
                             <td>20% Glaze</td>
                             <td>4 / 6</td>
-                            <td>10 x 1Kgs</td>
+                            <td>10 * 1Kgs</td>
                             <td class="icon-border_color"></td>
                         </tr>
                     </tbody>
@@ -63,6 +63,8 @@
                             <label for="species">Species</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="species" id="species" placeholder="Enter Species" tabindex="1">
                                 <option>Select Species</option>
+                                <option selected>VNMI</option>
+                                <option>BT</option>
                             </select>
                         </div>
                     </div>
@@ -76,6 +78,8 @@
                             <label for="treatment">Treatment</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="treatment" id="treatment" placeholder="Enter Treatment" tabindex="3">
                                 <option>Select Treatment</option>
+                                <option selected>Soaked</option>
+                                <option>Unsoaked</option>
                             </select>
                         </div>
                     </div>
@@ -89,6 +93,8 @@
                             <label for="glaze">Glaze %</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="glaze" id="glaze" placeholder="Enter Glaze" tabindex="5">
                                 <option>Select Glaze %</option>
+                                <option selected>Nw/Nc</option>
+                                <option>20% Glaze</option>
                             </select>
                         </div>
                     </div>
@@ -102,6 +108,8 @@
                             <label for="type">Type</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="type" id="type" placeholder="Enter Type" tabindex="7">
                                 <option>Select Type</option>
+                                <option selected>1*10Kgs</option>
+                                <option>10*1Kgs</option>
                             </select>
                         </div>
                     </div>
@@ -115,6 +123,7 @@
                             <label for="variety">Variety</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="variety" id="variety" placeholder="Enter Variety" tabindex="9">
                                 <option>Select Variety</option>
+                                <option selected>EZPL</option>
                             </select>
                         </div>
                     </div>
@@ -128,6 +137,8 @@
                             <label for="freezing">Freezing</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="freezing" id="freezing" placeholder="Enter Freezing" tabindex="11">
                                 <option>Select Freezing</option>
+                                <option selected>IQF</option>
+                                <option>BLOCK</option>
                             </select>
                         </div>
                     </div>
@@ -141,6 +152,8 @@
                             <label for="grade">Grade</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="grade" id="grade" placeholder="Enter Grade" tabindex="13">
                                 <option>Select Grade</option>
+                                <option selected>8/12</option>
+                                <option>4/6</option>
                             </select>
                         </div>
                     </div>
@@ -168,10 +181,10 @@
     </div>
     <div class="row" style="margin-top: 30px;">
         <div class="col-md-6">
-            <button type="button" class="btn btn-primary" id="submit_product_category_creation">Excel Upload</button>
+            <button type="button" class="btn btn-primary" id="submit_product_category_creation" tabindex="17">Excel Upload</button>
         </div>
         <div class="col-md-6 text-right">
-            <button type="button" class="btn btn-primary" id="submit_product_category_creation">Submit</button>
+            <button type="button" class="btn btn-primary" id="submit_product_category_creation" tabindex="18">Submit</button>
         </div>
     </div>
     
@@ -218,7 +231,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-primary" data-dismiss="modal" tabindex="17">Close</button>
+                    <button class="btn btn-primary" data-dismiss="modal" tabindex="4">Close</button>
                 </div>
             </div>
         </div>

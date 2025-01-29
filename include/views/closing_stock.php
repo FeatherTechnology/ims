@@ -77,6 +77,44 @@
                             <th style="vertical-align: middle;">Total</th>
                         </tr>
                     </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>TWL</td>
+                            <td>Soaked</td>
+                            <td>IQF</td>
+                            <td>Nw/Nc</td>
+                            <td>EZPL</td>
+                            <td>VNMI</td>
+                            <td>8/12</td>
+                            <td>1*10Kgs</td>
+                            <td>1</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td>12</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>TWL</td>
+                            <td>Unsoaked</td>
+                            <td>BLOCK</td>
+                            <td>25%Glaze</td>
+                            <td>HLSO</td>
+                            <td>BT</td>
+                            <td>4/6</td>
+                            <td>10*2lbs</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>10</td>
+                            <td>2</td>
+                            <td>5</td>
+                            <td>-</td>
+                            <td>106</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
