@@ -30,18 +30,18 @@
                             <td>IQF</td>
                             <td>Nw / Nc</td>
                             <td>8 / 12</td>
-                            <td>1 x 10Kgs</td>
+                            <td>1 * 10Kgs</td>
                             <td class="icon-border_color"></td>
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>HLSO</td>
+                            <td>BT</td>
                             <td>EZPL</td>
-                            <td>Unsoaked</td>
-                            <td>Block</td>
-                            <td>Nw / Nc</td>
-                            <td>13 / 15</td>
-                            <td>6 x 1.8Kgs</td>
+                            <td>Soaked</td>
+                            <td>IQF</td>
+                            <td>20% Glaze</td>
+                            <td>4 / 6</td>
+                            <td>10 * 1Kgs</td>
                             <td class="icon-border_color"></td>
                         </tr>
                     </tbody>
@@ -101,8 +101,8 @@
                             <label for="type">Type</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="type" id="type" placeholder="Enter Type" tabindex="5">
                                 <option>Select Type</option>
-                                <option selected>1 x 10Kgs</option>
-                                <option>10 X 1Kgs</option>
+                                <option selected>1 * 10Kgs</option>
+                                <option>10 * 1Kgs</option>
                             </select>
                         </div>
                     </div>
@@ -142,10 +142,10 @@
     </div>
     <div class="row" style="margin-top: 30px;">
         <div class="col-md-6">
-            <button type="button" class="btn btn-primary" id="submit_user_creation">Excel Upload</button>
+            <button type="button" class="btn btn-primary" id="submit_user_creation" tabindex="9">Excel Upload</button>
         </div>
         <div class="col-md-6 text-right">
-            <button type="button" class="btn btn-primary" id="submit_user_creation">Submit</button>
+            <button type="button" class="btn btn-primary" id="submit_user_creation" tabindex="10">Submit</button>
         </div>
     </div>
 </div>
