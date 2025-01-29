@@ -22,6 +22,17 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>ETW001</td>
+                            <td>Nithianand V N</td>
+                            <td>Male</td>
+                            <td>nithianand.venkatraman@waterbaseindia.com</td>
+                            <td>9840255498</td>
+                            <td>Supply Chain</td>
+                            <td>Deputy Manager</td>
+                            <td class="icon-border_color"></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -39,13 +50,13 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="employee_id">Employee ID</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="employee_id" id="employee_id" placeholder="E-101" tabindex="1" disabled>
+                            <input type="text" class="form-control" name="employee_id" id="employee_id" value="ETW001" placeholder="Employee ID" tabindex="1" readonly>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="employee_name">Employee Name</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="employee_name" id="employee_name" placeholder="Enter Employee Name" tabindex="2">
+                            <input type="text" class="form-control" name="employee_name" id="employee_name" value="Nithianand V N" placeholder="Employee Name" tabindex="2">
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -53,7 +64,7 @@
                             <label for="gender">Gender</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="gender" id="gender" placeholder="Enter Gender" tabindex="4">
                                 <option>Select Gender</option>
-                                <option>Male</option>
+                                <option selected>Male</option>
                                 <option>Female</option>
                                 <option>Transgender</option>
                             </select>
@@ -62,13 +73,13 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="Email">E-Mail ID</label><span class="text-danger">*</span>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter E-Mail ID" tabindex="9">
+                            <input type="email" class="form-control" name="email" id="email" value="nithianand.venkatraman@waterbaseindia.com" placeholder="Enter E-Mail ID" tabindex="9">
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="mobile_No">Mobile No</label><span class="text-danger">*</span>
-                            <input type="number" class="form-control" name="mobile_No" id="mobile_No" placeholder="Enter Mobile No" tabindex="6">
+                            <input type="number" class="form-control" name="mobile_No" id="mobile_No" value="9840255498" placeholder="Mobile No" tabindex="6">
                         </div>
                     </div>
                 </div>
@@ -85,7 +96,9 @@
                     <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-3">
                         <div class="form-group">
                             <label for="department">Department</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="department" id="department" placeholder="Enter Department" tabindex="7">
+                            <select type="text" class="form-control" name="department" id="department" value="Supply Chain" placeholder="Enter Department" tabindex="7">
+                                <option selected>Supply Chain</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-1 text-right" style="margin-top: 18px;">
@@ -96,7 +109,7 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="designation">Designation</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="designation" id="designation" placeholder="Enter designation" tabindex="9">
+                            <input type="text" class="form-control" name="designation" id="designation" value="Deputy Manager" placeholder="Enter Designation" tabindex="9">
                         </div>
                     </div>
                 </div>

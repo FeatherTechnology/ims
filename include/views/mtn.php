@@ -32,42 +32,22 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>NA</td>
-                        <td>01-Jul-24</td>
-                        <td>NA</td>
-                        <td>NA</td>
-                        <td>TWL-2162</td>
-                        <td>EZPL</td>
-                        <td>21 / 25</td>
+                        <td>2981AM27</td>
+                        <td>2024-12-27</td>
+                        <td>Day</td>
+                        <td>Rework</td>
+                        <td>TWL-2981</td>
+                        <td>HLSo</td>
+                        <td>41 / 50</td>
                         <td>Nw / Nc</td>
-                        <td>8 x 2lbs</td>
+                        <td>6 * 1.8Kgs</td>
                         <td>Dummy</td>
-                        <td>117</td>
+                        <td>21</td>
                         <td>0</td>
-                        <td>NA</td>
-                        <td>NA</td>
-                        <td>NA</td>
-                        <td>NA</td>
-                        <td class="icon-border_color"></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>NA</td>
-                        <td>01-Jul-24</td>
-                        <td>NA</td>
-                        <td>NA</td>
-                        <td>TWL-2163</td>
-                        <td>EZPL</td>
-                        <td>31 / 40</td>
-                        <td>Nw / Nc</td>
-                        <td>10 x 2lbs</td>
-                        <td>TWL/PRO/027/2024-25</td>
-                        <td>127</td>
-                        <td>0</td>
-                        <td>NA</td>
-                        <td>NA</td>
-                        <td>NA</td>
-                        <td>NA</td>
+                        <td>SL-1_A_G_C</td>
+                        <td></td>
+                        <td>20% Glaze needs to be rework</td>
+                        <td>Prabakaran</td>
                         <td class="icon-border_color"></td>
                     </tr>
                 </tbody>
@@ -87,7 +67,7 @@
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="mtn_id">MTN ID</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="mtn_id" id="mtn_id" placeholder="MTN ID" tabindex="1" value="NA" readonly>
+                                <input type="text" class="form-control" name="mtn_id" id="mtn_id" placeholder="MTN ID" value="2981AM27" tabindex="1" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4 ">
@@ -103,7 +83,7 @@
                         <div class="col-4">
                             <div class="form-group">
                                 <label for="date">Date</label><span class="text-danger">*</span>
-                                <input type="date" class="form-control" name="date" id="date" placeholder="Enter Date" tabindex="3" value="2021-01-01" readonly>
+                                <input type="date" class="form-control" name="date" id="date" placeholder="Enter Date" value="2024-12-27" tabindex="3" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
@@ -133,75 +113,74 @@
                                 <label for="lot_no">Lot No</label><span class="text-danger">*</span>
                                 <select type="text" class="form-control" name="lot_no" id="lot_no" placeholder="Enter Lot No" tabindex="5">
                                     <option>Select Lot No</option>
-                                    <option selected>TWL-2162</option>
-                                    <option>TWL-2164</option>
+                                    <option selected>TWL-2981</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="variety">Variety</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="variety" id="variety" placeholder="Variety" tabindex="6" readonly value="PD">
+                                <input type="text" class="form-control" name="variety" id="variety" placeholder="Variety" value="HLSO" tabindex="6" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="grade">Grade</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="grade" id="grade" placeholder="Grade" tabindex="7" readonly value="21/25">
+                                <input type="text" class="form-control" name="grade" id="grade" placeholder="Grade" value="41 / 50" tabindex="7" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="glaze">Glaze %</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="glaze" id="glaze" placeholder="Glaze" tabindex="8" readonly value="NW/Nc">
+                                <input type="text" class="form-control" name="glaze" id="glaze" placeholder="Glaze"  value="Nw / Nc" tabindex="8" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="packing">Packing Style</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="packing" id="packing" placeholder="Packing Style" tabindex="9" readonly value="8*2lbs">
+                                <input type="text" class="form-control" name="packing" id="packing" placeholder="Packing Style" value="6 * 1.8kgs" tabindex="9" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="pl_number">PL No / Dummy</label>
-                                <input type="text" class="form-control" name="pl_number" id="pl_number" placeholder="PL No" tabindex="10" readonly value="Dummy">
+                                <input type="text" class="form-control" name="pl_number" id="pl_number" value="Dummy" placeholder="PL No" tabindex="10" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="mc_number">Number of MC's</label>
-                                <input type="number" class="form-control" name="mc_number" placeholder="Number of MC" id="mc_number" tabindex="11" readonly value="117">
+                                <input type="number" class="form-control" name="mc_number" placeholder="Number of MC" id="mc_number" value="21" tabindex="11" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="loose_mc">Loose MC (in kg)</label>
-                                <input type="number" class="form-control" name="loose_mc" id="loose_mc" placeholder="Loose MC" tabindex="12" readonly value="2.8">
+                                <input type="number" class="form-control" name="loose_mc" id="loose_mc" placeholder="Loose MC" value="0" tabindex="12" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="rack_no">Rack No</label>
-                                <input type="text" class="form-control" name="rack_no" id="rack_no" placeholder="Rack No" tabindex="13" readonly value="NA">
+                                <input type="text" class="form-control" name="rack_no" id="rack_no" placeholder="Rack No" value="SL-1_A_G_C" tabindex="13" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="remarks">Remarks</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="remarks" id="remarks" placeholder="Enter Remarks" tabindex="14" value="NA">
+                                <input type="text" class="form-control" name="remarks" id="remarks" placeholder="Remarks" tabindex="14" readonly>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="purpose_work">Purpose of Work</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="purpose_work" id="purpose_work" placeholder="Enter Purpose of Work" tabindex="15" value="NA">
+                                <input type="text" class="form-control" name="purpose_work" id="purpose_work" value="20% Glaze needs to be rework" placeholder="Enter Purpose of Work" tabindex="15">
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="prodn_charge">Prodn In Charge</label><span class="text-danger">*</span>
-                                <input type="text" class="form-control" name="prodn_charge" id="prodn_charge" placeholder="Prodn In Charge" tabindex="16" readonly value="NA">
+                                <input type="text" class="form-control" name="prodn_charge" id="prodn_charge" placeholder="Prodn In Charge" value="Prabakaran" tabindex="16" readonly>
                             </div>
                         </div>
                     </div>

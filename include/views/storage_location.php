@@ -19,6 +19,14 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td>SL - 1</td>
+                            <td>A</td>
+                            <td>G</td>
+                            <td>A</td>
+                            <td>SL-1_A_G_A</td>
+                            <td class="icon-border_color"></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -38,6 +46,7 @@
                             <label for="storage_location">Storage Location</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="storage_location" id="storage_location" tabindex="1">
                                 <option>Select Storage Location</option>
+                                <option selected>SL - 1</option>
                             </select>
                         </div>
                     </div>
@@ -51,6 +60,7 @@
                             <label for="rack">Rack</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="rack" id="rack" tabindex="3">
                                 <option>Select Rack</option>
+                                <option selected>A</option>
                             </select>
                         </div>
                     </div>
@@ -64,6 +74,7 @@
                             <label for="compartment">Compartment</label><span class="text-danger">*</span>
                             <select type="text" class="form-control" name="compartment" id="compartment" placeholder="Enter Compartment" tabindex="5">
                                 <option>Select Compartment</option>
+                                <option selected>G</option>
                             </select>
                         </div>
                     </div>
@@ -75,13 +86,13 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="palette">Palette</label><span class="text-danger">*</span>
-                            <input type="number" class="form-control" name="palette" id="palette" placeholder="Enter Palette" tabindex="7">
+                            <input type="text" class="form-control" name="palette" id="palette" placeholder="Enter Palette" value="A" tabindex="7">
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                         <div class="form-group">
                             <label for="pal_ette">Palette</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="pal_ette" id="pal_ette" placeholder="Palette" tabindex="8" readonly>
+                            <input type="text" class="form-control" name="pal_ette" id="pal_ette" placeholder="Palette" value="SL-1_A_G_A" tabindex="8" readonly>
                         </div>
                     </div>
                 </div>
