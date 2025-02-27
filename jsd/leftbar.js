@@ -8,7 +8,7 @@ $(document).ready(function () {
         'product_creation':'master',
         'staff_creation':'master',
         'vendor_master':'master',
-        'customer_master':'master',
+        'consignee_master':'master',
         'depot_creation':'master',
         'bank_creation':'master',
         'storage_location':'master',
