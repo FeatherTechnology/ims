@@ -436,6 +436,17 @@ function validateEmail(emailInput, selector) {
 	}
 }
 
+function validateWebsite(websiteInput, selector) {
+    // Regular expression for website URL validation
+    if (websiteInput != '') {
+        let websitePattern = /^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]+\.[a-zA-Z]{2,}(\S*)?$/;
+        if (!websitePattern.test(websiteInput)) {
+            swalError('Warning', 'Kindly enter a valid website URL');
+            $('#' + selector).val('');  // Clear the input field if URL is invalid
+        }
+    }
+}
+
 function setDropdownScripts() {
 	$('.dropdown').off().click(function (event) {
 		event.preventDefault();
