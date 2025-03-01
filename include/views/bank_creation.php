@@ -7,7 +7,7 @@
     <div class="card">
         <div class="card-body">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12" style="overflow-x:auto;">
-                <table id="bank_create" class="table table-bordered">
+                <table id="bank_creation_table" class="table table-bordered">
                     <thead>
                         <tr>
                             <th>S.NO</th>
@@ -22,17 +22,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>State Bank of India</td>
-                            <td>10983149186</td>
-                            <td>The WaterBase Limited</td>
-                            <td>Rajaji Salai</td>
-                            <td>SBININBB105</td>
-                            <td>SBIN0004804</td>
-                            <td>0004804-9000009</td>
-                            <td><span class="icon-border_color"></span></td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -40,77 +29,84 @@
     </div>
 </div>
 <div class="bank_creation_content" style="display: none;">
-    <div class="card">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
-            <div class="card-header">
-                <div class="card-title">Bank Info</div>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
-                            <label for="bank_id">Bank ID</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="bank_id" id="bank_id" value="B-101" tabindex="1" disabled>
+    <form id="bank_creation" name="bank_creation">
+        <input type="hidden" id="bank_creation_id">
+        <div class="card">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                <div class="card-header">
+                    <div class="card-title">Bank Info</div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="bank_id">Bank ID</label><span class="text-danger">*</span>
+                                <input type="text" class="form-control" name="bank_id" id="bank_id" value="" tabindex="1" disabled>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
-                            <label for="bank_name">Bank Name</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="bank_name" id="bank_name" value="State Bank of India" tabindex="2">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="bank_name">Bank Name</label><span class="text-danger">*</span>
+                                <input type="text" class="form-control" name="bank_name" id="bank_name" placeholder="Enter Bank Name" value="" tabindex="2">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
-                            <label for="branch">Branch</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="branch" id="branch" tabindex="3">
-                                <option>Select Branch</option>
-                                <option selected>Rajaji Salai</option>
-                            </select>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="branch">Branch</label><span class="text-danger">*</span>
+                                <input type="text" class="form-control" name="branch" id="branch" placeholder="Enter Branch" tabindex="3">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
-                            <label for="account_type">Account Type</label><span class="text-danger">*</span>
-                            <select type="text" class="form-control" name="account_type" id="account_type" tabindex="4">
-                                <option>Select Account Type</option>
-                                <option>current</option>
-                            </select>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="account_type">Account Type</label><span class="text-danger">*</span>
+                                <select type="text" class="form-control" name="account_type" id="account_type" tabindex="4">
+                                    <option value="">Select Account Type</option>
+                                    <option value="1">Current Account</option>
+                                    <option value="2">Savings Account</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
-                            <label for="account_No">Account No</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="account_No" id="account_No" value="10983149186" tabindex="5">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="account_No">Account No</label><span class="text-danger">*</span>
+                                <input type="text" class="form-control" name="account_No" id="account_No" placeholder="Enter Account No" value="" tabindex="5">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
-                            <label for="ifsc_code">IFSC Code</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="ifsc_code" id="ifsc_code" value="SBIN0004804" tabindex="6">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="account_holder">Account Holder</label><span class="text-danger">*</span>
+                                <input type="text" class="form-control" name="account_holder" id="account_holder" placeholder="Enter Account Holder" value="" tabindex="6">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
-                            <label for="ad_code">AD Code</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="ad_code" id="ad_code" value="0004804-9000009" tabindex="7">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="ifsc_code">IFSC Code</label><span class="text-danger">*</span>
+                                <input type="text" class="form-control" name="ifsc_code" id="ifsc_code" value="" placeholder="Enter IFSC Code" tabindex="7">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
-                        <div class="form-group">
-                            <label for="Swift_code">Swift Code</label><span class="text-danger">*</span>
-                            <input type="text" class="form-control" name="Swift_code" id="Swift_code" value="SBININBB105" tabindex="8">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="ad_code">AD Code</label><span class="text-danger">*</span>
+                                <input type="text" class="form-control" name="ad_code" id="ad_code" value="" placeholder="Enter AD Code" tabindex="8">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
+                            <div class="form-group">
+                                <label for="swift_code">Swift Code</label><span class="text-danger">*</span>
+                                <input type="text" class="form-control" name="swift_code" id="swift_code" placeholder="Enter Swift Code" value="" tabindex="9">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row" style="margin-top: 30px;">
-        <div class="col-md-6">
-            <button type="button" class="btn btn-primary" id="submit_user_creation" tabindex="9">Excel Upload</button>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-6">
+                <button type="button" class="btn btn-primary" id="submit_bank_excel" tabindex="10">Excel Upload</button>
+            </div>
+            <div class="col-md-6 text-right">
+                <button type="button" class="btn btn-primary" id="submit_bank_creation" tabindex="11">Submit</button>
+            </div>
         </div>
-        <div class="col-md-6 text-right">
-            <button type="button" class="btn btn-primary" id="submit_user_creation" tabindex="10">Submit</button>
-        </div>
-    </div>
+    </form>
 </div>

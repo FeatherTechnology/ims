@@ -20,7 +20,7 @@ $(document).ready(function () {
         let pic = $('#company_logo')[0].files[0];
         companyDeatil.append('company_logo', pic);
 
-        var data = ['company_name', 'cin_no', 'floor_no', 'street', 'place', 'state', 'country', 'phone_no']
+        var data = ['company_name', 'cin_no', 'floor_no', 'street', 'place', 'state', 'country' ,'phone_no']
 
         var isValid = true;
         data.forEach(function (entry) {
@@ -97,10 +97,6 @@ $(document).ready(function () {
         img.attr('src', URL.createObjectURL(company_logo.files[0]));
         checkInputFileSize(this, 200, img)
     })
-
-    $('#phone_no').change(function () {
-        checkMobileNo($(this).val(), $(this).attr('id'));
-    });
 
     $('#email').on('change', function () {
         validateEmail($(this).val(), $(this).attr('id'));
