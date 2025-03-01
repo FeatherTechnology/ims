@@ -242,7 +242,7 @@ function deleteStaff(id) {
     }, 'json');
 }
 
-function whenCallBack(){
+function whenCallBack() {
 
     $('#staff_creation').trigger('reset');
     $('#staff_creation_id').val('');

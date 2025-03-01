@@ -70,7 +70,7 @@
                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-4">
                             <div class="form-group">
                                 <label for="mobile_no">Mobile No</label><span class="text-danger">*</span>
-                                <input type="number" class="form-control" name="mobile_no" id="mobile_no" value="" placeholder="Mobile No" tabindex="5">
+                                <input type="number" class="form-control" name="mobile_no" id="mobile_no" value="" placeholder="Mobile No" onKeyPress="if(this.value.length==10) return false;" tabindex="5">
                             </div>
                         </div>
                     </div>

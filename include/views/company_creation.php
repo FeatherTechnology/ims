@@ -92,7 +92,7 @@
                                 <div class="col-6">
                                     <div class="form-group">
                                         <label for="Phone No">Phone No</label><span class="text-danger">*</span>
-                                        <input type="text" class="form-control" name="phone_no" id="phone_no" placeholder="Enter Phone No" tabindex="8" value="">
+                                        <input type="text" class="form-control" name="phone_no" id="phone_no" placeholder="Enter Phone No" onKeyPress="if(this.value.length==10) return false;" tabindex="8" value="">
                                     </div>
                                 </div>
                                 <div class="col-6">
